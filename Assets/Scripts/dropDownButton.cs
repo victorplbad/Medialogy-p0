@@ -3,24 +3,40 @@ using UnityEngine;
 
 public class dropDownButton : MonoBehaviour
 {
+    //public string screenName0;
+    public GameObject openBox;
 
     Animator animator;
-    //public bool isOpen;
+     public bool isOpen;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        animator.Play("Closed", 0, 1f);
+        //animator.Play("Closed", 0, 1f);
     }
 
-
-    private void Update()
+    public void OpenClose() 
     {
-       // animator.SetBool(isOpen false);
+
+        if (isOpen == false)
+        {
+            animator.SetBool("isOpen", true);
+            openBox.SetActive(openBox == true);
+            isOpen = true;
+        }
+        else if (isOpen == true)
+        {
+            animator.SetBool("isOpen", false);
+            openBox.SetActive(openBox == false);
+            isOpen = false;
+        }
     }
 
+    
+  
 
     
-    
+
+
 
 }
