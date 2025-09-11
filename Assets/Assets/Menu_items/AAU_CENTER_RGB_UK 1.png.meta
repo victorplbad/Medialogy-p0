@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: cd8a592b89490904596fa32b89737538
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -864682318857651066
+    second: AAU_CENTER_RGB_UK 1_0
+  - first:
+      213: -581688750956696191
+    second: AAU_CENTER_RGB_UK 1_1
+  - first:
+      213: 2015574339815362180
+    second: AAU_CENTER_RGB_UK 1_2
+  - first:
+      213: 5848748814035049606
+    second: AAU_CENTER_RGB_UK 1_3
+  - first:
+      213: -6042362511993332702
+    second: AAU_CENTER_RGB_UK 1_4
+  - first:
+      213: -5710520499428173075
+    second: AAU_CENTER_RGB_UK 1_5
+  - first:
+      213: -2046932637608833347
+    second: AAU_CENTER_RGB_UK 1_6
+  - first:
+      213: -1011437636869331404
+    second: AAU_CENTER_RGB_UK 1_7
+  - first:
+      213: -4383564365724332181
+    second: AAU_CENTER_RGB_UK 1_8
+  - first:
+      213: -2450180528839034086
+    second: AAU_CENTER_RGB_UK 1_9
+  - first:
+      213: 6686216921649750571
+    second: AAU_CENTER_RGB_UK 1_10
+  - first:
+      213: -7399303661315860187
+    second: AAU_CENTER_RGB_UK 1_11
+  - first:
+      213: 1113183895099058074
+    second: AAU_CENTER_RGB_UK 1_12
+  - first:
+      213: 2899076187029057883
+    second: AAU_CENTER_RGB_UK 1_13
+  - first:
+      213: 9095328916345602141
+    second: AAU_CENTER_RGB_UK 1_14
+  - first:
+      213: -1507083236932079875
+    second: AAU_CENTER_RGB_UK 1_15
+  - first:
+      213: 777035051215230509
+    second: AAU_CENTER_RGB_UK 1_16
+  - first:
+      213: 6144603739636672586
+    second: AAU_CENTER_RGB_UK 1_17
+  - first:
+      213: 304098492368482162
+    second: AAU_CENTER_RGB_UK 1_18
+  - first:
+      213: 8677462670574252340
+    second: AAU_CENTER_RGB_UK 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 159
+        width: 131
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cbde423080004f0800000000000000
+      internalID: -864682318857651066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 128
+        width: 103
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18da265b92d6de7f0800000000000000
+      internalID: -581688750956696191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 137
+        width: 67
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e461fde22c8fb10800000000000000
+      internalID: 2015574339815362180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_3
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 44
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cdb01fe0eea2150800000000000000
+      internalID: 5848748814035049606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 44
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c10842f47352ca0800000000000000
+      internalID: -6042362511993332702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_5
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 44
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea5ff48cd720c0b0800000000000000
+      internalID: -5710520499428173075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 45
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe0c287c95d793e0800000000000000
+      internalID: -2046932637608833347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 45
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43661fdf3d6a6f1f0800000000000000
+      internalID: -1011437636869331404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 44
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fc0fa3f637a23c0800000000000000
+      internalID: -4383564365724332181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 45
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b78f66ac53ffdd0800000000000000
+      internalID: -2450180528839034086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22a32a7dd63acc50800000000000000
+      internalID: 6686216921649750571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5295502f584605990800000000000000
+      internalID: -7399303661315860187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97a01dcad2d27f00800000000000000
+      internalID: 1113183895099058074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5139a0ae669b3820800000000000000
+      internalID: 2899076187029057883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d504e16d579193e70800000000000000
+      internalID: 9095328916345602141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfea7b7e7c3c51be0800000000000000
+      internalID: -1507083236932079875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2616bd134598ca00800000000000000
+      internalID: 777035051215230509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_17
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 0
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48a492bb84064550800000000000000
+      internalID: 6144603739636672586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fea56b7ff583400800000000000000
+      internalID: 304098492368482162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CENTER_RGB_UK 1_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4317a4fd25a8c6870800000000000000
+      internalID: 8677462670574252340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AAU_CENTER_RGB_UK 1_0: -864682318857651066
+      AAU_CENTER_RGB_UK 1_1: -581688750956696191
+      AAU_CENTER_RGB_UK 1_10: 6686216921649750571
+      AAU_CENTER_RGB_UK 1_11: -7399303661315860187
+      AAU_CENTER_RGB_UK 1_12: 1113183895099058074
+      AAU_CENTER_RGB_UK 1_13: 2899076187029057883
+      AAU_CENTER_RGB_UK 1_14: 9095328916345602141
+      AAU_CENTER_RGB_UK 1_15: -1507083236932079875
+      AAU_CENTER_RGB_UK 1_16: 777035051215230509
+      AAU_CENTER_RGB_UK 1_17: 6144603739636672586
+      AAU_CENTER_RGB_UK 1_18: 304098492368482162
+      AAU_CENTER_RGB_UK 1_19: 8677462670574252340
+      AAU_CENTER_RGB_UK 1_2: 2015574339815362180
+      AAU_CENTER_RGB_UK 1_3: 5848748814035049606
+      AAU_CENTER_RGB_UK 1_4: -6042362511993332702
+      AAU_CENTER_RGB_UK 1_5: -5710520499428173075
+      AAU_CENTER_RGB_UK 1_6: -2046932637608833347
+      AAU_CENTER_RGB_UK 1_7: -1011437636869331404
+      AAU_CENTER_RGB_UK 1_8: -4383564365724332181
+      AAU_CENTER_RGB_UK 1_9: -2450180528839034086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
