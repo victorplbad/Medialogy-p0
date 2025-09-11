@@ -1,17 +1,11 @@
 using JetBrains.Rider.Unity.Editor;
 using UnityEngine;
-
 public class openButton1 : MonoBehaviour
 {
-
-    
-    
     public GameObject screen0;
-    private bool iAmAktive = false;
-    
+    private bool iAmAktive = false;   
     public void changeThat()
     {
-
         if (iAmAktive == false)
         {
             screen0.SetActive(true);
@@ -22,12 +16,5 @@ public class openButton1 : MonoBehaviour
             screen0.SetActive(false);
             iAmAktive = false;
         }
-
-
-
     }
-
-
-
-
 }
