@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 2752447792e2f134ea2e657b8acdca45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 453800110198714233
+    second: AAU_UK_CIRCLE_blue_rgb_0
+  - first:
+      213: 5374902612371917130
+    second: AAU_UK_CIRCLE_blue_rgb_1
+  - first:
+      213: -835966748423679245
+    second: AAU_UK_CIRCLE_blue_rgb_2
+  - first:
+      213: -6531318503718599362
+    second: AAU_UK_CIRCLE_blue_rgb_3
+  - first:
+      213: 8688963884463972099
+    second: AAU_UK_CIRCLE_blue_rgb_4
+  - first:
+      213: -1477685957621569789
+    second: AAU_UK_CIRCLE_blue_rgb_5
+  - first:
+      213: -4017288321941618662
+    second: AAU_UK_CIRCLE_blue_rgb_6
+  - first:
+      213: -6704932907352598550
+    second: AAU_UK_CIRCLE_blue_rgb_7
+  - first:
+      213: -5216635578795631994
+    second: AAU_UK_CIRCLE_blue_rgb_8
+  - first:
+      213: -3432178581185415263
+    second: AAU_UK_CIRCLE_blue_rgb_9
+  - first:
+      213: 345332639976728152
+    second: AAU_UK_CIRCLE_blue_rgb_10
+  - first:
+      213: -8498784347063231383
+    second: AAU_UK_CIRCLE_blue_rgb_11
+  - first:
+      213: 6402506405860115736
+    second: AAU_UK_CIRCLE_blue_rgb_12
+  - first:
+      213: -7266332955303159661
+    second: AAU_UK_CIRCLE_blue_rgb_13
+  - first:
+      213: 8184567726795022804
+    second: AAU_UK_CIRCLE_blue_rgb_14
+  - first:
+      213: -5459255203266377571
+    second: AAU_UK_CIRCLE_blue_rgb_15
+  - first:
+      213: 6509235014233257993
+    second: AAU_UK_CIRCLE_blue_rgb_16
+  - first:
+      213: -395046945425236642
+    second: AAU_UK_CIRCLE_blue_rgb_17
+  - first:
+      213: 6708652326064213943
+    second: AAU_UK_CIRCLE_blue_rgb_18
+  - first:
+      213: -6162923134924572486
+    second: AAU_UK_CIRCLE_blue_rgb_19
+  - first:
+      213: -1554031632729260249
+    second: AAU_UK_CIRCLE_blue_rgb_20
+  - first:
+      213: -915062271633475490
+    second: AAU_UK_CIRCLE_blue_rgb_21
+  - first:
+      213: 8952002095345730763
+    second: AAU_UK_CIRCLE_blue_rgb_22
+  - first:
+      213: -5493818911117088077
+    second: AAU_UK_CIRCLE_blue_rgb_23
+  - first:
+      213: 4954533138139371441
+    second: AAU_UK_CIRCLE_blue_rgb_24
+  - first:
+      213: 6590115245029407193
+    second: AAU_UK_CIRCLE_blue_rgb_25
+  - first:
+      213: -5142354717685639156
+    second: AAU_UK_CIRCLE_blue_rgb_26
+  - first:
+      213: -9138686173167869758
+    second: AAU_UK_CIRCLE_blue_rgb_27
+  - first:
+      213: 6665826656868785892
+    second: AAU_UK_CIRCLE_blue_rgb_28
+  - first:
+      213: -9031856947534589206
+    second: AAU_UK_CIRCLE_blue_rgb_29
+  - first:
+      213: 7535734118129566914
+    second: AAU_UK_CIRCLE_blue_rgb_30
+  - first:
+      213: 3523144666230482991
+    second: AAU_UK_CIRCLE_blue_rgb_31
+  - first:
+      213: -7840464630155833259
+    second: AAU_UK_CIRCLE_blue_rgb_32
+  - first:
+      213: -371923018053793307
+    second: AAU_UK_CIRCLE_blue_rgb_33
+  - first:
+      213: -8187879561012368080
+    second: AAU_UK_CIRCLE_blue_rgb_34
+  - first:
+      213: 5885478899899627937
+    second: AAU_UK_CIRCLE_blue_rgb_35
+  - first:
+      213: 5996565439371614531
+    second: AAU_UK_CIRCLE_blue_rgb_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 142
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f6d6fbbc83c4600800000000000000
+      internalID: 453800110198714233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 146
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a494fb0d27d779a40800000000000000
+      internalID: 5374902612371917130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 149
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f21b24ebac0664f0800000000000000
+      internalID: -835966748423679245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 149
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35caeedc681c55a0800000000000000
+      internalID: -6531318503718599362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 147
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f5ca7ed96659870800000000000000
+      internalID: 8688963884463972099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307226e53743e7be0800000000000000
+      internalID: -1477685957621569789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 139
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1048524e89bf38c0800000000000000
+      internalID: -4017288321941618662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 126
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7db668b0b43f2a0800000000000000
+      internalID: -6704932907352598550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 134
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ad83b7499ca97b0800000000000000
+      internalID: -5216635578795631994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 132
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a73dbec3c37e50d0800000000000000
+      internalID: -3432178581185415263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 125
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8562927d43edac400800000000000000
+      internalID: 345332639976728152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 114
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c55a23aa04e0a80800000000000000
+      internalID: -8498784347063231383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 122
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815847977a54ad850800000000000000
+      internalID: 6402506405860115736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 51
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398d0730dacc82b90800000000000000
+      internalID: -7266332955303159661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d16ebbdbfc659170800000000000000
+      internalID: 8184567726795022804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98ca172154dc34b0800000000000000
+      internalID: -5459255203266377571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 35
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90878ee02c2755a50800000000000000
+      internalID: 6509235014233257993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 39
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d535c65e2848af0800000000000000
+      internalID: -395046945425236642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfc7a02fbbe91d50800000000000000
+      internalID: 6708652326064213943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8b8c4bf06e87aa0800000000000000
+      internalID: -6162923134924572486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 49
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fb371b678fe6ae0800000000000000
+      internalID: -1554031632729260249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_21
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58bcef46bb0d43f0800000000000000
+      internalID: -915062271633475490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 51
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc482a9d976eb3c70800000000000000
+      internalID: 8952002095345730763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 37
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3baea8ecec802c3b0800000000000000
+      internalID: -5493818911117088077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 28
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7d2be83a902c440800000000000000
+      internalID: 4954533138139371441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d93dd046eac47b50800000000000000
+      internalID: 6590115245029407193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c081b4f21afa2a8b0800000000000000
+      internalID: -5142354717685639156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_27
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 13
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c02e86285ddc2180800000000000000
+      internalID: -9138686173167869758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 14
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee5ef00706c18c50800000000000000
+      internalID: 6665826656868785892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 23
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae29e0485f568a280800000000000000
+      internalID: -9031856947534589206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 6
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c487e0214e449860800000000000000
+      internalID: 7535734118129566914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28eaf25869b4e030800000000000000
+      internalID: 3523144666230482991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5501c8d95f2113390800000000000000
+      internalID: -7840464630155833259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_33
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9cc115cf9a6daf0800000000000000
+      internalID: -371923018053793307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_34
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d2d26abeece5e80800000000000000
+      internalID: -8187879561012368080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_35
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9f29970eb6da150800000000000000
+      internalID: 5885478899899627937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_UK_CIRCLE_blue_rgb_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 8
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3491126fe74183350800000000000000
+      internalID: 5996565439371614531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AAU_UK_CIRCLE_blue_rgb_0: 453800110198714233
+      AAU_UK_CIRCLE_blue_rgb_1: 5374902612371917130
+      AAU_UK_CIRCLE_blue_rgb_10: 345332639976728152
+      AAU_UK_CIRCLE_blue_rgb_11: -8498784347063231383
+      AAU_UK_CIRCLE_blue_rgb_12: 6402506405860115736
+      AAU_UK_CIRCLE_blue_rgb_13: -7266332955303159661
+      AAU_UK_CIRCLE_blue_rgb_14: 8184567726795022804
+      AAU_UK_CIRCLE_blue_rgb_15: -5459255203266377571
+      AAU_UK_CIRCLE_blue_rgb_16: 6509235014233257993
+      AAU_UK_CIRCLE_blue_rgb_17: -395046945425236642
+      AAU_UK_CIRCLE_blue_rgb_18: 6708652326064213943
+      AAU_UK_CIRCLE_blue_rgb_19: -6162923134924572486
+      AAU_UK_CIRCLE_blue_rgb_2: -835966748423679245
+      AAU_UK_CIRCLE_blue_rgb_20: -1554031632729260249
+      AAU_UK_CIRCLE_blue_rgb_21: -915062271633475490
+      AAU_UK_CIRCLE_blue_rgb_22: 8952002095345730763
+      AAU_UK_CIRCLE_blue_rgb_23: -5493818911117088077
+      AAU_UK_CIRCLE_blue_rgb_24: 4954533138139371441
+      AAU_UK_CIRCLE_blue_rgb_25: 6590115245029407193
+      AAU_UK_CIRCLE_blue_rgb_26: -5142354717685639156
+      AAU_UK_CIRCLE_blue_rgb_27: -9138686173167869758
+      AAU_UK_CIRCLE_blue_rgb_28: 6665826656868785892
+      AAU_UK_CIRCLE_blue_rgb_29: -9031856947534589206
+      AAU_UK_CIRCLE_blue_rgb_3: -6531318503718599362
+      AAU_UK_CIRCLE_blue_rgb_30: 7535734118129566914
+      AAU_UK_CIRCLE_blue_rgb_31: 3523144666230482991
+      AAU_UK_CIRCLE_blue_rgb_32: -7840464630155833259
+      AAU_UK_CIRCLE_blue_rgb_33: -371923018053793307
+      AAU_UK_CIRCLE_blue_rgb_34: -8187879561012368080
+      AAU_UK_CIRCLE_blue_rgb_35: 5885478899899627937
+      AAU_UK_CIRCLE_blue_rgb_36: 5996565439371614531
+      AAU_UK_CIRCLE_blue_rgb_4: 8688963884463972099
+      AAU_UK_CIRCLE_blue_rgb_5: -1477685957621569789
+      AAU_UK_CIRCLE_blue_rgb_6: -4017288321941618662
+      AAU_UK_CIRCLE_blue_rgb_7: -6704932907352598550
+      AAU_UK_CIRCLE_blue_rgb_8: -5216635578795631994
+      AAU_UK_CIRCLE_blue_rgb_9: -3432178581185415263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

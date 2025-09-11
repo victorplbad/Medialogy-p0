@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 23fb7bd87c74a314fbc168de6d361aba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6757774747518683363
+    second: AAU_BOELGER_WHITE-09_0
+  - first:
+      213: 3639695807636330757
+    second: AAU_BOELGER_WHITE-09_1
+  - first:
+      213: -5992727750405372423
+    second: AAU_BOELGER_WHITE-09_2
+  - first:
+      213: -4540131411472758944
+    second: AAU_BOELGER_WHITE-09_3
+  - first:
+      213: 3105722515632635294
+    second: AAU_BOELGER_WHITE-09_4
+  - first:
+      213: -6633414639258451566
+    second: AAU_BOELGER_WHITE-09_5
+  - first:
+      213: 205909538204485380
+    second: AAU_BOELGER_WHITE-09_6
+  - first:
+      213: 1520738422622506044
+    second: AAU_BOELGER_WHITE-09_7
+  - first:
+      213: -2023935601264497026
+    second: AAU_BOELGER_WHITE-09_8
+  - first:
+      213: 8938287067859531217
+    second: AAU_BOELGER_WHITE-09_9
+  - first:
+      213: -1690836360683210770
+    second: AAU_BOELGER_WHITE-09_10
+  - first:
+      213: -1157969325998433212
+    second: AAU_BOELGER_WHITE-09_11
+  - first:
+      213: -4727773344367877794
+    second: AAU_BOELGER_WHITE-09_12
+  - first:
+      213: 1226804240534742807
+    second: AAU_BOELGER_WHITE-09_13
+  - first:
+      213: 2163536513349078935
+    second: AAU_BOELGER_WHITE-09_14
+  - first:
+      213: -7616614160731363806
+    second: AAU_BOELGER_WHITE-09_15
+  - first:
+      213: 9145160437980944488
+    second: AAU_BOELGER_WHITE-09_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2905
+        width: 930
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d173b0edbaf8732a0800000000000000
+      internalID: -6757774747518683363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2809
+        width: 1500
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50954a89d0cc28230800000000000000
+      internalID: 3639695807636330757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2715
+        width: 1500
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f54671acdd85dca0800000000000000
+      internalID: -5992727750405372423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2622
+        width: 1500
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067c29139863ef0c0800000000000000
+      internalID: -4540131411472758944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2530
+        width: 1500
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d37335c2eb91b20800000000000000
+      internalID: 3105722515632635294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2440
+        width: 1500
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291cf1be78061f3a0800000000000000
+      internalID: -6633414639258451566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2272
+        width: 1500
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4070b8052a98bd200800000000000000
+      internalID: 205909538204485380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2094
+        width: 1500
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3cc3b4c98fba1510800000000000000
+      internalID: 1520738422622506044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1908
+        width: 1500
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7eec5e3b4989e3e0800000000000000
+      internalID: -2023935601264497026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 1500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d53c3c2bbc2b0c70800000000000000
+      internalID: 8938287067859531217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 1500
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7b924d941f888e0800000000000000
+      internalID: -1690836360683210770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 1500
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c901f78011eefe0800000000000000
+      internalID: -1157969325998433212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1033
+        width: 1500
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51646e2133936eb0800000000000000
+      internalID: -4727773344367877794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 1500
+        height: 1038
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7172406f4fb760110800000000000000
+      internalID: 1226804240534742807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 1500
+        height: 1253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f42c8fefc660e10800000000000000
+      internalID: 2163536513349078935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 1500
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226a56e76c95c4690800000000000000
+      internalID: -7616614160731363806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_BOELGER_WHITE-09_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1470
+        height: 1519
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8685fc717f22aee70800000000000000
+      internalID: 9145160437980944488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AAU_BOELGER_WHITE-09_0: -6757774747518683363
+      AAU_BOELGER_WHITE-09_1: 3639695807636330757
+      AAU_BOELGER_WHITE-09_10: -1690836360683210770
+      AAU_BOELGER_WHITE-09_11: -1157969325998433212
+      AAU_BOELGER_WHITE-09_12: -4727773344367877794
+      AAU_BOELGER_WHITE-09_13: 1226804240534742807
+      AAU_BOELGER_WHITE-09_14: 2163536513349078935
+      AAU_BOELGER_WHITE-09_15: -7616614160731363806
+      AAU_BOELGER_WHITE-09_16: 9145160437980944488
+      AAU_BOELGER_WHITE-09_2: -5992727750405372423
+      AAU_BOELGER_WHITE-09_3: -4540131411472758944
+      AAU_BOELGER_WHITE-09_4: 3105722515632635294
+      AAU_BOELGER_WHITE-09_5: -6633414639258451566
+      AAU_BOELGER_WHITE-09_6: 205909538204485380
+      AAU_BOELGER_WHITE-09_7: 1520738422622506044
+      AAU_BOELGER_WHITE-09_8: -2023935601264497026
+      AAU_BOELGER_WHITE-09_9: 8938287067859531217
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

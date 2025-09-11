@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 74b33cb0f56a1f647b2d72a2baa9762b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9080229055837135609
+    second: AAU_CIRCLE_white_rgb_0
+  - first:
+      213: -1065211509948510031
+    second: AAU_CIRCLE_white_rgb_1
+  - first:
+      213: 4756336513609924896
+    second: AAU_CIRCLE_white_rgb_2
+  - first:
+      213: -3817555604474528870
+    second: AAU_CIRCLE_white_rgb_3
+  - first:
+      213: 3348598397706176765
+    second: AAU_CIRCLE_white_rgb_4
+  - first:
+      213: -192902175384872480
+    second: AAU_CIRCLE_white_rgb_5
+  - first:
+      213: 6583478007201135405
+    second: AAU_CIRCLE_white_rgb_6
+  - first:
+      213: 7351024871091407050
+    second: AAU_CIRCLE_white_rgb_7
+  - first:
+      213: -4154079425646633532
+    second: AAU_CIRCLE_white_rgb_8
+  - first:
+      213: 4471299380820489586
+    second: AAU_CIRCLE_white_rgb_9
+  - first:
+      213: -8153026003175974564
+    second: AAU_CIRCLE_white_rgb_10
+  - first:
+      213: -7629705334875676762
+    second: AAU_CIRCLE_white_rgb_11
+  - first:
+      213: 7686970913235738480
+    second: AAU_CIRCLE_white_rgb_12
+  - first:
+      213: -5713296397518043031
+    second: AAU_CIRCLE_white_rgb_13
+  - first:
+      213: 5516735445138212163
+    second: AAU_CIRCLE_white_rgb_14
+  - first:
+      213: 5226013320676856835
+    second: AAU_CIRCLE_white_rgb_15
+  - first:
+      213: -197172357666925686
+    second: AAU_CIRCLE_white_rgb_16
+  - first:
+      213: -8082476499424609327
+    second: AAU_CIRCLE_white_rgb_17
+  - first:
+      213: 5974316493113785925
+    second: AAU_CIRCLE_white_rgb_18
+  - first:
+      213: -3791304839651045555
+    second: AAU_CIRCLE_white_rgb_19
+  - first:
+      213: 108351084223605391
+    second: AAU_CIRCLE_white_rgb_20
+  - first:
+      213: 6427475341490925383
+    second: AAU_CIRCLE_white_rgb_21
+  - first:
+      213: -8424409140475731566
+    second: AAU_CIRCLE_white_rgb_22
+  - first:
+      213: -6488753929152280448
+    second: AAU_CIRCLE_white_rgb_23
+  - first:
+      213: 4573273376428401020
+    second: AAU_CIRCLE_white_rgb_24
+  - first:
+      213: 9046784181988800263
+    second: AAU_CIRCLE_white_rgb_25
+  - first:
+      213: 1621958730728023027
+    second: AAU_CIRCLE_white_rgb_26
+  - first:
+      213: -2871143768124444385
+    second: AAU_CIRCLE_white_rgb_27
+  - first:
+      213: -7932081272308465818
+    second: AAU_CIRCLE_white_rgb_28
+  - first:
+      213: 3934726785034561428
+    second: AAU_CIRCLE_white_rgb_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 138
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f26a589734730e70800000000000000
+      internalID: 9080229055837135609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 143
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b09cd286cb9731f0800000000000000
+      internalID: -1065211509948510031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 146
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02180f5ebd6e10240800000000000000
+      internalID: 4756336513609924896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 121
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b7efc6761550bc0800000000000000
+      internalID: -3817555604474528870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 133
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df808b6408c987e20800000000000000
+      internalID: 3348598397706176765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 104
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9d8c75e7ca25df0800000000000000
+      internalID: -192902175384872480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 115
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bf1d5ed563d5b50800000000000000
+      internalID: 6583478007201135405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_7
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 51
+        width: 66
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac807704c26140660800000000000000
+      internalID: 7351024871091407050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 35
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdd29985ceb956c0800000000000000
+      internalID: -4154079425646633532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 40
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275ba3ec81f3d0e30800000000000000
+      internalID: 4471299380820489586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 88
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c595c24fb02aade80800000000000000
+      internalID: -8153026003175974564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 77
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af15ddfb67dd1690800000000000000
+      internalID: -7629705334875676762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 53
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1d2a715b9daa60800000000000000
+      internalID: 7686970913235738480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 46
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9680b61623b46b0b0800000000000000
+      internalID: -5713296397518043031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_14
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 57
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345054f88a16f8c40800000000000000
+      internalID: 5516735445138212163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 40
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30457623d67868840800000000000000
+      internalID: 5226013320676856835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 31
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a839cbd09c0834df0800000000000000
+      internalID: -197172357666925686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 29
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db7a52527645df80800000000000000
+      internalID: -8082476499424609327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_18
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 37
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54efdcb723909e250800000000000000
+      internalID: 5974316493113785925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 23
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4165e554926bc0800000000000000
+      internalID: -3791304839651045555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_20
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a2d2eacb0f08100800000000000000
+      internalID: 108351084223605391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_21
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 13
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f2624d4caf23950800000000000000
+      internalID: 6427475341490925383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 21
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291e36b658c761b80800000000000000
+      internalID: -8424409140475731566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_23
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 7
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08845f92ea053f5a0800000000000000
+      internalID: -6488753929152280448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7124c6d7e7877f30800000000000000
+      internalID: 4573273376428401020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707b0171842ac8d70800000000000000
+      internalID: 9046784181988800263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_26
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f323614fda528610800000000000000
+      internalID: 1621958730728023027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_27
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11bdd174f5a728d0800000000000000
+      internalID: -2871143768124444385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f768adb169be190800000000000000
+      internalID: -7932081272308465818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AAU_CIRCLE_white_rgb_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 7
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4972336f925fa9630800000000000000
+      internalID: 3934726785034561428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AAU_CIRCLE_white_rgb_0: 9080229055837135609
+      AAU_CIRCLE_white_rgb_1: -1065211509948510031
+      AAU_CIRCLE_white_rgb_10: -8153026003175974564
+      AAU_CIRCLE_white_rgb_11: -7629705334875676762
+      AAU_CIRCLE_white_rgb_12: 7686970913235738480
+      AAU_CIRCLE_white_rgb_13: -5713296397518043031
+      AAU_CIRCLE_white_rgb_14: 5516735445138212163
+      AAU_CIRCLE_white_rgb_15: 5226013320676856835
+      AAU_CIRCLE_white_rgb_16: -197172357666925686
+      AAU_CIRCLE_white_rgb_17: -8082476499424609327
+      AAU_CIRCLE_white_rgb_18: 5974316493113785925
+      AAU_CIRCLE_white_rgb_19: -3791304839651045555
+      AAU_CIRCLE_white_rgb_2: 4756336513609924896
+      AAU_CIRCLE_white_rgb_20: 108351084223605391
+      AAU_CIRCLE_white_rgb_21: 6427475341490925383
+      AAU_CIRCLE_white_rgb_22: -8424409140475731566
+      AAU_CIRCLE_white_rgb_23: -6488753929152280448
+      AAU_CIRCLE_white_rgb_24: 4573273376428401020
+      AAU_CIRCLE_white_rgb_25: 9046784181988800263
+      AAU_CIRCLE_white_rgb_26: 1621958730728023027
+      AAU_CIRCLE_white_rgb_27: -2871143768124444385
+      AAU_CIRCLE_white_rgb_28: -7932081272308465818
+      AAU_CIRCLE_white_rgb_29: 3934726785034561428
+      AAU_CIRCLE_white_rgb_3: -3817555604474528870
+      AAU_CIRCLE_white_rgb_4: 3348598397706176765
+      AAU_CIRCLE_white_rgb_5: -192902175384872480
+      AAU_CIRCLE_white_rgb_6: 6583478007201135405
+      AAU_CIRCLE_white_rgb_7: 7351024871091407050
+      AAU_CIRCLE_white_rgb_8: -4154079425646633532
+      AAU_CIRCLE_white_rgb_9: 4471299380820489586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
