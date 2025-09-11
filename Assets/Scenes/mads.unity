@@ -227,10 +227,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1598783281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 907.16675, y: -67.333336}
-  m_SizeDelta: {x: 100.666664, y: 134.66667}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &370135621
 MonoBehaviour:
@@ -560,10 +560,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1598783281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1012.83344, y: -202}
-  m_SizeDelta: {x: 100.666664, y: 134.66667}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &538780178
 MonoBehaviour:
@@ -719,10 +719,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1598783281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1012.83344, y: -67.333336}
-  m_SizeDelta: {x: 100.666664, y: 134.66667}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &687404996
 MonoBehaviour:
@@ -1078,7 +1078,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 337914723303273998, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4055971978036341287, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -1140,13 +1140,13 @@ PrefabInstance:
       addedObject: {fileID: 1020668259}
     - targetCorrespondingSourceObject: {fileID: 2136243514742154751, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2031460153}
+    - targetCorrespondingSourceObject: {fileID: 2136243514742154751, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1076299839}
     - targetCorrespondingSourceObject: {fileID: 2136243514742154751, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1069151830}
-    - targetCorrespondingSourceObject: {fileID: 2136243514742154751, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2031460153}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d3185c7f3882e749b282140fdafb637, type: 3}
 --- !u!1 &1357275928
@@ -1181,10 +1181,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1598783281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 907.16675, y: -202}
-  m_SizeDelta: {x: 100.666664, y: 134.66667}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1357275930
 MonoBehaviour:
@@ -1509,7 +1509,7 @@ RectTransform:
   m_LocalScale: {x: 6.117648, y: 1.3918762, z: 1.3918762}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1591936440}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1584,7 +1584,7 @@ RectTransform:
   m_LocalScale: {x: 0.88551825, y: 0.8855183, z: 0.8855183}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 197802083}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1699,6 +1699,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 1591936440}
   - {fileID: 1252100266}
   - {fileID: 1750468105}
+  - {fileID: 1841431828}
+  - {fileID: 1930476370}
