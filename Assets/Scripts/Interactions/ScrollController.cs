@@ -1,7 +1,4 @@
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Analytics;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(ScrollRect))]
@@ -29,50 +26,59 @@ public class ScrollController : MonoBehaviour
     }
 
     private void Update() {
-        if (Input.touchCount >= 1)
+        if (Input.touchCount < 1)
+            return;
+
+        Vector2 mousePosition = Input.mousePosition;
+        if (Input.GetMouseButtonDown(0)) {
+            _isDragging = true;
+            Debug.Log("Touch Began");
+        } else if (Input.GetMouseButtonUp(0)) {
+            _isDragging = false;
+            Debug.Log("Touch Ended");
+        }
+
+        if (_isDragging)
         {
-            Touch touch = Input.GetTouch(Input.touchCount - 1);
-            if (touch.phase == TouchPhase.Began) {
-                _isDragging = true;
-                Debug.Log("Touch Began");
-            } else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) {
-                _isDragging = false;
-                Debug.Log("Touch Ended");
+            if (_previousPosition == Vector2.zero)
+            {
+                _previousPosition = mousePosition;
+                return;
             }
 
-            if (_isDragging){
-                if (_previousPosition == Vector2.zero) {
-                    _previousPosition = touch.position;
-                    return;
-                }
+            Vector2 touchDelta = mousePosition - _previousPosition;
+            _previousPosition = mousePosition;
 
-                Vector2 touchDelta = touch.position - _previousTouchPosition;
-                _previousTouchPosition = touch.position;
+            if (_locked)
+                return;
 
-                if (_locked) return;
+            Debug.Log($"Touch Delta: {touchDelta}, Magnitude: {touchDelta.magnitude}");
+            if (touchDelta.magnitude < 5f)
+                return;
 
-                Debug.Log($"Touch Delta: {touchDelta}, Magnitude: {touchDelta.magnitude}");
-                if (touchDelta.magnitude < 100f) return;
+            _locked = true;
 
-                _locked = true;
-
-                if (Mathf.Abs(touchDelta.x) > Mathf.Abs(touchDelta.y)) {
-                    _currentState = ScrollState.Horizontal;
-                    _scrollRect.horizontal = true;
-                    _scrollRect.vertical = false;
-                } else {
-                    _currentState = ScrollState.Vertical;
-                    _scrollRect.horizontal = false;
-                    _scrollRect.vertical = true;
-                }
-
-            } else if (_currentState != ScrollState.None && !_isDragging) {
+            if (Mathf.Abs(touchDelta.x) > Mathf.Abs(touchDelta.y))
+            {
+                _currentState = ScrollState.Horizontal;
                 _scrollRect.horizontal = true;
-                _scrollRect.vertical = true;
-                _currentState = ScrollState.None;
-                _previousPosition = Vector2.zero;
-                _locked = false;
+                _scrollRect.vertical = false;
             }
+            else
+            {
+                _currentState = ScrollState.Vertical;
+                _scrollRect.horizontal = false;
+                _scrollRect.vertical = true;
+            }
+
+        }
+        else if (_currentState != ScrollState.None && !_isDragging)
+        {
+            _scrollRect.horizontal = true;
+            _scrollRect.vertical = true;
+            _currentState = ScrollState.None;
+            _previousPosition = Vector2.zero;
+            _locked = false;
         }
     }
 }
