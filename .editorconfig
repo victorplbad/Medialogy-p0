@@ -299,7 +299,7 @@ dotnet_diagnostic.IDE0110.severity = suggestion
 dotnet_diagnostic.IDE1005.severity = suggestion
 csharp_style_conditional_delegate_call = true
 # IDE1006: Naming rule violation
-dotnet_diagnostic.IDE1006.severity = error
+dotnet_diagnostic.IDE1006.severity = suggestion
 
 ######################### Formatting rules #########################
 # Formatting rules - https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/formatting-rules
