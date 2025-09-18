@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="Flex_text_box" src="project://database/Assets/Assets/ui_elements/Flex_text_box.uxml?fileID=9197481963319205126&amp;guid=34697563f6ba8c84eb249caf9393ca93&amp;type=3#Flex_text_box" />
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+    <ui:ScrollView style="height: 365px; align-items: stretch; margin-top: 17%;">
+        <ui:Instance template="Flex_text_box" name="Flex_text_box" style="font-size: 23%; -unity-font-style: normal;" />
+    </ui:ScrollView>
+</ui:UXML>
