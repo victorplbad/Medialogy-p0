@@ -1,9 +1,16 @@
 <UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Template name="top_bar" src="project://database/Assets/Assets/ui_elements/top_bar.uxml?fileID=9197481963319205126&amp;guid=d91af771d34fc2647b4295979a14dc1d&amp;type=3#top_bar" />
+    <Template name="Flex_text_box" src="project://database/Assets/Assets/ui_elements/Flex_text_box.uxml?fileID=9197481963319205126&amp;guid=34697563f6ba8c84eb249caf9393ca93&amp;type=3#Flex_text_box" />
+    <Template name="button_with_image" src="project://database/Assets/Assets/ui_elements/button_with_image.uxml?fileID=9197481963319205126&amp;guid=6153b3cf14c7e754781186206feecfd8&amp;type=3#button_with_image" />
+    <Template name="Flex_text_box_with_logo" src="project://database/Assets/Assets/ui_elements/Flex_text_box_with_logo.uxml?fileID=9197481963319205126&amp;guid=61db4d9758491374c8484b33c7922bff&amp;type=3#Flex_text_box_with_logo" />
     <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
     <Instance template="top_bar" name="top_bar" />
     <VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column-reverse;">
-        <ScrollView style="margin-bottom: 135px;" />
+        <ScrollView name="ScrollView" style="margin-bottom: 149px; height: 100%; padding-bottom: 0;">
+            <Instance template="Flex_text_box" style="border-bottom-width: -21px; margin-top: 0; padding-bottom: 0; margin-bottom: 0;" />
+            <Instance template="button_with_image" />
+            <Instance template="Flex_text_box_with_logo" />
+        </ScrollView>
     </VisualElement>
     <VisualElement name="buttom_bar" style="flex-grow: 1; height: 100px; min-height: 100px; max-height: 231px; background-color: rgb(33, 26, 82);">
         <VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/homebutton.png?fileID=2800000&amp;guid=663117a44cf1a2a48a5f380fb6207550&amp;type=3#homebutton&quot;); -unity-background-scale-mode: scale-to-fit; border-bottom-width: 0; translate: 0 -138px; height: auto; max-height: 267px; min-height: 300px;" />
