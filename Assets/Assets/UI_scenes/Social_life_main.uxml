@@ -1,4 +1,5 @@
 <UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Template name="buttom_bar" src="project://database/Assets/Assets/ui_elements/buttom_bar.uxml?fileID=9197481963319205126&amp;guid=98b4b6ee9081ff24da748cb9fbfe184d&amp;type=3#buttom_bar" />
     <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
     <VisualElement name="top_bar" template="top_bar">
         <VisualElement name="top_background" style="flex-grow: 1; height: 300px; background-color: rgb(33, 26, 82); max-height: 300px; flex-direction: column-reverse; padding-bottom: 0; margin-top: 0; flex-shrink: 1; align-items: stretch; justify-content: space-between; align-self: stretch;">
@@ -27,7 +28,5 @@
             </VisualElement>
         </ScrollView>
     </VisualElement>
-    <VisualElement name="buttom_bar" style="flex-grow: 1; height: 100px; min-height: 100px; max-height: 231px; background-color: rgb(33, 26, 82);">
-        <VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/homebutton.png?fileID=2800000&amp;guid=663117a44cf1a2a48a5f380fb6207550&amp;type=3#homebutton&quot;); -unity-background-scale-mode: scale-to-fit; border-bottom-width: 0; translate: 0 -138px; height: auto; max-height: 267px; min-height: 300px;" />
-    </VisualElement>
+    <Instance template="buttom_bar" />
 </UXML>

@@ -1,0 +1,29 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Template name="buttom_bar" src="project://database/Assets/Assets/ui_elements/buttom_bar.uxml?fileID=9197481963319205126&amp;guid=98b4b6ee9081ff24da748cb9fbfe184d&amp;type=3#buttom_bar" />
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+    <VisualElement name="top_bar" template="top_bar">
+        <VisualElement name="top_background" style="flex-grow: 1; height: 300px; background-color: rgb(33, 26, 82); max-height: 300px; flex-direction: column-reverse; padding-bottom: 0; margin-top: 0; flex-shrink: 1; align-items: stretch; justify-content: space-between; align-self: stretch;">
+            <VisualElement style="flex-grow: 1; height: 85px; flex-direction: row; flex-wrap: nowrap;">
+                <VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logofiler-til-web/Logofiler%20til%20web/WHITE/__AAU_LEFT_WHITE.png?fileID=2800000&amp;guid=f0009ae54c67e544b985a8c294b4e3de&amp;type=3#__AAU_LEFT_WHITE&quot;); -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; margin-right: 130px; padding-top: 45px; margin-bottom: 0; margin-left: 60px; height: 200px;" />
+                <Label text="Socialt liv" enable-rich-text="false" class="Label barlow" style="font-size: 60px; margin-right: 50px; -unity-text-align: middle-right; white-space: pre-wrap; width: 550px; height: 200px; padding-bottom: 18px;" />
+            </VisualElement>
+            <VisualElement style="flex-grow: 1;" />
+        </VisualElement>
+    </VisualElement>
+    <VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column-reverse;">
+        <ScrollView name="ScrollView" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="margin-bottom: 149px; height: 100%; padding-bottom: 0;">
+            <VisualElement style="flex-grow: 1; margin-top: 90px; margin-bottom: 90px;">
+                <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Round_element">
+                    <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-direction: row; flex-shrink: initial;">
+                        <ui:VisualElement name="round_image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/round_Amped_logo.png?fileID=2800000&amp;guid=29ae70f441b1bad47a6fd36eeba05c13&amp;type=3#round_Amped_logo&quot;); -unity-background-scale-mode: scale-to-fit; width: 300px; height: 300px; margin-left: 0%; margin-right: 0%; flex-shrink: 1;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </VisualElement>
+            <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box">
+                <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+                <ui:Label text="AMPED is a student organization whose goal is to strengthen the social life of students at Aalborg University in Copenhagen. This is achieved by assisting students in planning events and starting new associations." name="Flex_text_box" class="Label ui_element_background barlow" style="background-size: 100% 100%; width: 95%; align-items: center; align-self: center; white-space: normal; font-size: 60px; -unity-text-align: upper-left; padding-left: 45px; padding-right: 45px; padding-top: 40px; padding-bottom: 40px; margin-top: 0%; margin-bottom: 0%;" />
+            </ui:VisualElement>
+        </ScrollView>
+    </VisualElement>
+    <Instance template="buttom_bar" />
+</UXML>
