@@ -35,3 +35,7 @@
 .AAU_dark_blue {
     background-color: rgb(33, 26, 82);
 }
+
+.barlow {
+    -unity-font-definition: url("project://database/Assets/Fonts/Barlow/Barlow-Regular.ttf?fileID=12800000&guid=13ff8cb063d69b84bba985c7c7ef9c52&type=3#Barlow-Regular");
+}
