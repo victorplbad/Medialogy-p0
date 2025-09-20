@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(ScrollRect))]
 public class ScrollController : MonoBehaviour
@@ -50,7 +51,7 @@ public class ScrollController : MonoBehaviour
             _scrollRect.horizontal = true;
             _scrollRect.vertical = true;
             _currentState = ScrollState.None;
-            _previousPosition = Vector2.positiveInfinity;
+            _previousPosition = Vector2.zero;
             _locked = false;
         }
     }
@@ -59,14 +60,14 @@ public class ScrollController : MonoBehaviour
     {
         Vector2 mousePosition = Input.mousePosition;
 
-        if (_previousPosition == Vector2.positiveInfinity)
+        if (_previousPosition == Vector2.zero)
         {
             _previousPosition = mousePosition;
             return;
         }
 
         Vector2 touchDelta = mousePosition - _previousPosition;
-        
+
 
         Debug.Log($"Touch Delta: {touchDelta}, Magnitude: {touchDelta.magnitude}");
         if (touchDelta.magnitude < _magnitudeThreshold)
