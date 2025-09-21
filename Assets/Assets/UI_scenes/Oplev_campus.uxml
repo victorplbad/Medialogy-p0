@@ -14,9 +14,10 @@
         <ScrollView name="ScrollView" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="margin-bottom: 149px; height: 100%; padding-bottom: 0;">
             <VisualElement name="TemplateContainer" template="button_with_image">
                 <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; position: absolute; top: auto; left: auto; bottom: -1865px; right: auto;">
-                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/User_03.png?fileID=2800000&amp;guid=802dc8b74e99c7741b6046448c02ca09&amp;type=3#User_03&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="Læs om Studentertorvet" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; text-overflow: clip; height: 228px; max-width: 859px; min-width: 859px; min-height: auto;" />
+                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: auto; justify-content: flex-start; align-items: center; position: absolute; top: auto; left: auto; bottom: -1865px; right: auto;">
+                    <Foldout text="Læs om Studentertorvet&#10;" style="flex-direction: column-reverse; font-size: 90px;">
+                        <Label text="På studentertorvet i bygning B kan man finde borde, sofaer og beanbags. Klar til brug ved studie, frokost eller bare til at slappe af. Det er også her man finder kaffepletten, vores studenterdrevne café hvor der serveres kaffe og kage til studentervenlige priser et par eftermiddage hver uge." style="font-size: 60px; white-space: normal;" />
+                    </Foldout>
                 </VisualElement>
             </VisualElement>
         </ScrollView>
