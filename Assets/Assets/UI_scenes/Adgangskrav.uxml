@@ -16,13 +16,13 @@
                     <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box" name="VisualElement" class="element_margin ui_element_background" style="margin-top: 0%; margin-bottom: 0%; width: 100%;">
                         <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
                         <ui:Label text="Adgangskrav:&#10;Gymnasial uddannelse (STX, HHX, HTX, HF)&#10;Dansk A &#10;Engelsk B  &#10;Matematik B (7,0) eller Matematik A&#10;" name="Flex_text_box" class="Label barlow" style="background-size: 100% 100%; width: 95%; align-items: center; align-self: center; white-space: normal; font-size: 60px; -unity-text-align: upper-left; padding-left: 45px; padding-right: 45px; padding-top: 40px; padding-bottom: 40px; margin-top: 0%; margin-bottom: 0%;" />
-                        <ui:VisualElement class="ui_element_background" style="flex-grow: 1; height: 150px; margin-top: 20px; margin-bottom: 26px; width: 95%; align-self: center; background-color: rgba(89, 79, 191, 0.8); flex-direction: row;">
-                            <ui:Label text="Opfylder du ikke kravne?" style="min-width: 85%; max-width: 85%; min-height: 100%; -unity-text-align: middle-left; padding-left: 23px; font-size: 60px;" />
-                            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); width: auto; -unity-background-scale-mode: scale-to-fit; margin-right: 0; min-width: 32px;" />
+                        <ui:VisualElement class="ui_element_background" style="flex-grow: 1; height: auto; margin-top: 20px; margin-bottom: 26px; width: 95%; align-self: center; background-color: rgba(89, 79, 191, 0.8); flex-direction: row;">
+                            <ui:Foldout text="Opfylder du ikke kravne?" value="false" toggle-on-label-click="true" class="Label AAU_dark_blue" style="font-size: 60px; margin-left: 40px; opacity: 1; background-color: rgba(89, 79, 191, 0); width: 100%; min-height: auto; margin-top: 10px; margin-bottom: 10px;">
+                                <ui:Label text="Har du ikke bestået dansk A, engelsk B eller matematik B. &#10;Kan du sagtens tage/gentage faget over sommer. Bare rolig, der er masser af studerende der har taget et ekstra- eller supplerende fag.                                     " class="Label" style="font-size: 60px; flex-wrap: nowrap; white-space: pre-wrap;" />
+                            </ui:Foldout>
                         </ui:VisualElement>
                     </ui:VisualElement>
                 </VisualElement>
-                <VisualElement style="flex-grow: 1;" />
             </VisualElement>
         </ScrollView>
     </VisualElement>
