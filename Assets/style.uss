@@ -49,3 +49,12 @@
     margin-left: 0;
     padding-left: 7px;
 }
+
+.unity-foldout_text {
+    color: rgba(255, 255, 255, 0);
+}
+
+.unity-foldout__toggle .unity-text-element {
+    color: rgb(255, 255, 255);
+    min-height: 300px;
+}
