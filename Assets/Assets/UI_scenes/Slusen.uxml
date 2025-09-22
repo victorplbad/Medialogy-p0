@@ -1,5 +1,6 @@
 <UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Template name="buttom_bar" src="project://database/Assets/Assets/ui_elements/buttom_bar.uxml?fileID=9197481963319205126&amp;guid=98b4b6ee9081ff24da748cb9fbfe184d&amp;type=3#buttom_bar" />
+    <Template name="social_buttons" src="project://database/Assets/Assets/ui_elements/social_buttons.uxml?fileID=9197481963319205126&amp;guid=d6b93a56b17a7c24f8df008582af973d&amp;type=3#social_buttons" />
     <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
     <VisualElement name="top_bar" template="top_bar">
         <VisualElement name="top_background" style="flex-grow: 1; height: 300px; background-color: rgb(33, 26, 82); max-height: 300px; flex-direction: column-reverse; padding-bottom: 0; margin-top: 0; flex-shrink: 1; align-items: stretch; justify-content: space-between; align-self: stretch;">
@@ -13,17 +14,18 @@
     <VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column-reverse;">
         <ScrollView name="ScrollView" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="margin-bottom: 149px; height: 100%; padding-bottom: 0;">
             <VisualElement style="flex-grow: 1; margin-top: 90px; margin-bottom: 90px;">
-                <VisualElement xmlns:ui="UnityEngine.UIElements" template="Round_element">
+                <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Round_element">
                     <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-direction: row; flex-shrink: initial;">
                         <ui:VisualElement name="round_image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/round_Slusen_logo.png?fileID=2800000&amp;guid=e92552ef343d0964baace7ac0614f189&amp;type=3#round_Slusen_logo&quot;); -unity-background-scale-mode: scale-to-fit; width: 300px; height: 300px; margin-left: 0%; margin-right: 0%; flex-shrink: 1;" />
                     </ui:VisualElement>
-                </VisualElement>
+                </ui:VisualElement>
             </VisualElement>
-            <VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box">
+            <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box">
                 <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
                 <ui:Label text="Slusen is AAU Copenhagen’s Friday bar. Here, you can come by after a long day to grab a beer or just hang out with your fellow students. It’s usually open every Friday from 3 PM to 11 PM." name="Flex_text_box" class="Label ui_element_background barlow" style="background-size: 100% 100%; width: 95%; align-items: center; align-self: center; white-space: normal; font-size: 60px; -unity-text-align: upper-left; padding-left: 45px; padding-right: 45px; padding-top: 40px; padding-bottom: 40px; margin-top: 0%; margin-bottom: 0%;" />
-            </VisualElement>
+            </ui:VisualElement>
         </ScrollView>
     </VisualElement>
     <Instance template="buttom_bar" />
+    <Instance template="social_buttons" enabled="true" style="position: absolute; top: auto; bottom: 250px; right: auto; left: -10px;" />
 </UXML>

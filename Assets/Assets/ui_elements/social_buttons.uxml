@@ -1,0 +1,7 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; position: absolute; justify-content: flex-start; align-content: auto; height: 140px; width: 450px; top: 0; left: 30px; align-self: auto; align-items: auto; right: auto;">
+        <VisualElement name="button1" class="social-button" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        <VisualElement name="button2" class="social-button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Logos_Students/social%20button/cuttegning1.png?fileID=-2347017331587955935&amp;guid=98e786fc35d00a446b93581160c32f03&amp;type=3#cuttegning1_9&quot;);" />
+        <VisualElement name="button3" class="social-button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Assets/Logos_Students/social%20button/cuttegning1.png?fileID=-7709851594069135673&amp;guid=98e786fc35d00a446b93581160c32f03&amp;type=3#cuttegning1_0&quot;);" />
+    </VisualElement>
+</UXML>
