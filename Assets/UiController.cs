@@ -57,6 +57,7 @@ public class UiController : MonoBehaviour
     {
         Debug.Log("go back to: " + BackStack.Peek());
         var scene = BackStack.Pop();
+        CurrentScene = scene;
         HandleSceneChange(scene);
     }
     private void HandleSceneChange(VisualTreeAsset scene)
