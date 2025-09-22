@@ -1,0 +1,5 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <VisualElement name="buttom_bar" style="flex-grow: 1; height: 177px; min-height: 100px; max-height: 231px; background-color: rgb(33, 26, 82); position: absolute; bottom: 0; width: 100%;">
+        <VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/homebutton.png?fileID=2800000&amp;guid=663117a44cf1a2a48a5f380fb6207550&amp;type=3#homebutton&quot;); -unity-background-scale-mode: scale-to-fit; border-bottom-width: 0; translate: 0 -138px; height: auto; max-height: 267px; min-height: 300px;" />
+    </VisualElement>
+</UXML>

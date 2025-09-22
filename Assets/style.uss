@@ -31,3 +31,30 @@
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
+.AAU_dark_blue {
+    background-color: rgb(33, 26, 82);
+}
+
+.barlow {
+    -unity-font-definition: url("project://database/Assets/Fonts/Barlow/Barlow-Regular.ttf?fileID=12800000&guid=13ff8cb063d69b84bba985c7c7ef9c52&type=3#Barlow-Regular");
+}
+
+.unity-toggle__checkmark {
+    display: none;
+    opacity: 0;
+}
+
+.unity-foldout__content {
+    margin-left: 0;
+    padding-left: 7px;
+}
+
+.unity-foldout_text {
+    color: rgba(255, 255, 255, 0);
+}
+
+.unity-foldout__toggle .unity-text-element {
+    color: rgb(255, 255, 255);
+    min-height: 300px;
+}
