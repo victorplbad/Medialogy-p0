@@ -16,8 +16,6 @@ public class VideoController : MonoBehaviour
     {
         GetComponent<UiController>().OnSceneChanged += (scene) =>
         {
-            Debug.Log("Scene changed to: " + scene.name);
-
             _root.Clear();
             var newScene = scene.Instantiate();
             scene.CloneTree(_root);
@@ -40,23 +38,18 @@ public class VideoController : MonoBehaviour
 
         // Now that the layout is ready, bind the buttons.
         BindButtons(_root);
-
-        Debug.Log("Binding after geometry change:");
-        Debug.Log(_root);
     }
 
     private void BindButtons(VisualElement parent)
     {
         // Find ALL VisualElements that should act as buttons
         var buttons = parent.Query<VisualElement>(className: "VideoButton").ToList();
-        Debug.Log("Button Amount: " + buttons.Count);
         // ^ you can mark them with a USS class = "button" in UXML
 
         foreach (var button in buttons)
         {
             if (button.dataSource is not VideoBehavior so)
             {
-                Debug.Log("not VideoBehavior");
                 continue;
             }
 
@@ -64,7 +57,6 @@ public class VideoController : MonoBehaviour
 
             button.RegisterCallback<ClickEvent>(evt =>
             {
-                Debug.Log($"Clicked on element bound to: {so.name}");
                 so.OnClick(this); // Call a method on the ScriptableObject
             });
         }

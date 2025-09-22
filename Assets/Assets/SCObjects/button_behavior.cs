@@ -13,6 +13,7 @@ public class button_behavior : ScriptableObject
     // Define a UnityEvent or virtual function to allow customization
     public virtual void Execute(UiController controller)
     {
+        Debug.Log("button pressed: " + useLastScene);
         if (useLastScene)
         {
             controller.GoBack();

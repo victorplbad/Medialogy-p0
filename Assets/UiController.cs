@@ -16,7 +16,10 @@ public class UiController : MonoBehaviour
 
     public event Action<VisualTreeAsset> OnSceneChanged;
 
-    public Stack<VisualTreeAsset> BackStack;
+    public Stack<VisualTreeAsset> BackStack = new();
+
+    private VisualTreeAsset CurrentScene;
+
     // Define a ButtonBehavior class (or use your existing one)
     [Serializable]
     public class ButtonBehavior
@@ -37,13 +40,7 @@ public class UiController : MonoBehaviour
     {
         // Unregister the callback so this only runs once after the initial layout.
         root.UnregisterCallback<GeometryChangedEvent>(OnGeometryChanged);
-
-        // Now that the layout is ready, bind the buttons.
-
-        var scene = Document.visualTreeAsset;
-        lastScene = scene;
-        currentScene = scene;
-
+        CurrentScene = Document.visualTreeAsset;
         BindButtons(root);
 
         Debug.Log("Binding after geometry change:");
@@ -52,11 +49,13 @@ public class UiController : MonoBehaviour
 
     public void ChangeSceneTo(VisualTreeAsset scene)
     {
-        BackStack.Push(scene);
+        BackStack.Push(CurrentScene);
+        CurrentScene = scene;
         HandleSceneChange(scene);
     }
     public void GoBack()
     {
+        Debug.Log("go back to: " + BackStack.Peek());
         var scene = BackStack.Pop();
         HandleSceneChange(scene);
     }
@@ -78,7 +77,6 @@ public class UiController : MonoBehaviour
     {
         // Find ALL VisualElements that should act as buttons
         var buttons = parent.Query<VisualElement>(className: "CButton").ToList();
-        Debug.Log("number of buttons: " + buttons.Count);
         // ^ you can mark them with a USS class = "button" in UXML
 
         foreach (var button in buttons)
@@ -90,7 +88,6 @@ public class UiController : MonoBehaviour
             }
             button.RegisterCallback<ClickEvent>(evt =>
             {
-                Debug.Log($"Clicked on element bound to: {so.name}");
                 so.Execute(this); // Call a method on the ScriptableObject
             });
         }

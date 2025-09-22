@@ -799,6 +799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Document: {fileID: 1966854201}
+  startScene: {fileID: 9197481963319205126, guid: 3daa4aa48db6eb34fbdff489ef8cfc0e, type: 3}
 --- !u!114 &1966854203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,7 +831,7 @@ PrefabInstance:
     - target: {fileID: 5096491206551000721, guid: 4ee0e64b06d44834fa5ace71496c15b8, type: 3}
       propertyPath: sourceAsset
       value: 
-      objectReference: {fileID: 9197481963319205126, guid: 79858c2e1dad6e8478f9c3b413572d8c, type: 3}
+      objectReference: {fileID: 9197481963319205126, guid: 3daa4aa48db6eb34fbdff489ef8cfc0e, type: 3}
     - target: {fileID: 7057735446518096032, guid: 4ee0e64b06d44834fa5ace71496c15b8, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
