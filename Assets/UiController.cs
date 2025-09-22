@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -13,9 +15,8 @@ public class UiController : MonoBehaviour
     public UIDocument Document;
 
     public event Action<VisualTreeAsset> OnSceneChanged;
-    public VisualTreeAsset lastScene{ get; private set; }
-    private VisualTreeAsset currentScene{ get; set; }
 
+    public Stack<VisualTreeAsset> BackStack;
     // Define a ButtonBehavior class (or use your existing one)
     [Serializable]
     public class ButtonBehavior
@@ -51,21 +52,19 @@ public class UiController : MonoBehaviour
 
     public void ChangeSceneTo(VisualTreeAsset scene)
     {
-        if (lastScene is null)
-        {
-            lastScene = scene;
-            currentScene = scene;
-        }
-        else
-        {
-            lastScene = currentScene;
-            currentScene = scene;
-        }
+        BackStack.Push(scene);
+        HandleSceneChange(scene);
+    }
+    public void GoBack()
+    {
+        var scene = BackStack.Pop();
+        HandleSceneChange(scene);
+    }
+    private void HandleSceneChange(VisualTreeAsset scene)
+    {
         root.Clear();
 
-        //Remove all video players from object
         GetComponents<VideoPlayer>().ToList().ForEach(vp => Destroy(vp));
-
         var newScene = scene.Instantiate();
         scene.CloneTree(root);
 
