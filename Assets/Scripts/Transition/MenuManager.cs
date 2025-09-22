@@ -54,17 +54,21 @@ public class MenuManager : MonoBehaviour
             }
         }
 
+        //Play before load animation here
+
         foreach (var scene in scenesToLoad)
         {
             yield return StartCoroutine(LoadSceneAsync(scene));
         }
 
-        //Play transition animation here
+        //Play after load animation here
 
         foreach (var scene in scenesToUnload)
         {
             yield return StartCoroutine(UnloadSceneAsync(scene));
         }
+
+        //Play after unload animation here
 
         //Update Buttons Here
     }
