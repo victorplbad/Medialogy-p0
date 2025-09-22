@@ -65,4 +65,5 @@
     height: 200px;
     margin-left: 15px;
     margin-right: 15px;
+.CButton {
 }
