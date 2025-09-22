@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+    <ui:Label text="awdAWDDADWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaADWAdwawdawdawdawd" name="Flex_text_box" class="Label ui_element_background barlow" style="background-size: 100% 100%; width: 95%; align-items: center; align-self: center; white-space: normal; font-size: 60px; -unity-text-align: upper-left; padding-left: 45px; padding-right: 45px; padding-top: 40px; padding-bottom: 40px; margin-top: 0%; margin-bottom: 0%;" />
+</ui:UXML>

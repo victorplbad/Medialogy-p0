@@ -1,0 +1,39 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+    <VisualElement name="top_bar" template="top_bar">
+        <VisualElement name="top_background" style="flex-grow: 1; height: 300px; background-color: rgb(33, 26, 82); max-height: 300px; flex-direction: column-reverse; padding-bottom: 0; margin-top: 0; flex-shrink: 1; align-items: stretch; justify-content: space-between; align-self: stretch;">
+            <VisualElement style="flex-grow: 1; height: 85px; flex-direction: row; flex-wrap: nowrap;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/LastScene.asset?fileID=11400000&amp;guid=b6dbf3a37e83c204a833de39627a0ea9&amp;type=2#LastScene" class="CButton" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; margin-right: 0; padding-top: 0; margin-bottom: 0; margin-left: 0; height: 183px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; background-repeat: no-repeat no-repeat; background-position-x: left -10px; background-position-y: center 0; flex-wrap: nowrap; margin-top: 0; rotate: 180deg; padding-right: 0; padding-bottom: 0; padding-left: 0; left: -398px;" />
+                <Label text="Socialt liv" enable-rich-text="false" class="Label barlow" style="font-size: 63px; margin-right: 63px; -unity-text-align: middle-right; white-space: pre-wrap; width: 550px; height: 200px; padding-bottom: 18px; -unity-font-style: bold;" />
+            </VisualElement>
+            <VisualElement style="flex-grow: 1;" />
+        </VisualElement>
+    </VisualElement>
+    <VisualElement name="VisualElement" style="flex-grow: 1;">
+        <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden">
+            <VisualElement class="element_margin" style="flex-grow: 1;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Slusen.asset?fileID=11400000&amp;guid=4876ecb8fd3d93d478726c078a3af6ee&amp;type=2#Slusen" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_Slusen_logo.png?fileID=2380621514592809173&amp;guid=e92552ef343d0964baace7ac0614f189&amp;type=3#round_Slusen_logo_0&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
+                    <Label text="slusen" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                </VisualElement>
+            </VisualElement>
+            <VisualElement data-source="project://database/Assets/Assets/SCObjects/Amped.asset?fileID=11400000&amp;guid=4f90a3fe402acea479cfa51409d45ba5&amp;type=2#Amped" class="element_margin CButton" style="flex-grow: 1;">
+                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_Amped_logo.png?fileID=2800000&amp;guid=29ae70f441b1bad47a6fd36eeba05c13&amp;type=3#round_Amped_logo&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
+                    <Label text="amped" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                </VisualElement>
+            </VisualElement>
+            <VisualElement data-source="project://database/Assets/Assets/SCObjects/kaffepletten.asset?fileID=11400000&amp;guid=f49cb1b079ba58c4cb6fdfb91a066e68&amp;type=2#kaffepletten" class="element_margin CButton" style="flex-grow: 1;">
+                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_KP_logo.png?fileID=2800000&amp;guid=482659d53b4dd3a438ab9d38ebfa3f40&amp;type=3#round_KP_logo&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
+                    <Label text="kaffepletten" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                </VisualElement>
+            </VisualElement>
+        </ScrollView>
+    </VisualElement>
+    <VisualElement template="buttom_bar" style="position: absolute; bottom: 0; width: 100%;">
+        <VisualElement name="buttom_bar" style="flex-grow: 1; height: 177px; min-height: 100px; max-height: 231px; background-color: rgb(33, 26, 82); position: absolute; bottom: 0; width: 100%;">
+            <VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/homebutton.png?fileID=2800000&amp;guid=663117a44cf1a2a48a5f380fb6207550&amp;type=3#homebutton&quot;); -unity-background-scale-mode: scale-to-fit; border-bottom-width: 0; translate: 0 -138px; height: auto; max-height: 267px; min-height: 300px;" />
+        </VisualElement>
+    </VisualElement>
+</UXML>

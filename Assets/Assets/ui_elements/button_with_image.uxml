@@ -1,0 +1,7 @@
+<UXML xmlns="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
+    <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center;">
+        <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_Slusen_logo.png?fileID=2380621514592809173&amp;guid=e92552ef343d0964baace7ac0614f189&amp;type=3#round_Slusen_logo_0&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
+        <Label text="wdawdadwda" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+    </VisualElement>
+</UXML>

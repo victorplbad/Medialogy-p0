@@ -1,0 +1,74 @@
+.Label {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    white-space: normal;
+    align-items: stretch;
+    min-height: 3%;
+    font-size: 20px;
+}
+
+.button {
+    border-bottom-width: 20px;
+    border-top-width: 20px;
+    border-left-width: 20px;
+    border-right-width: 20px;
+}
+
+.ui_element_background {
+    background-color: rgba(0, 0, 0, 0.91);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.element_margin {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.AAU_dark_blue {
+    background-color: rgb(33, 26, 82);
+}
+
+.barlow {
+    -unity-font-definition: url("project://database/Assets/Fonts/Barlow/Barlow-Regular.ttf?fileID=12800000&guid=13ff8cb063d69b84bba985c7c7ef9c52&type=3#Barlow-Regular");
+}
+
+.unity-toggle__checkmark {
+    display: none;
+    opacity: 0;
+}
+
+.unity-foldout__content {
+    margin-left: 0;
+    padding-left: 7px;
+}
+
+.unity-foldout_text {
+    color: rgba(255, 255, 255, 0);
+    white-space: normal;
+}
+
+.unity-foldout__toggle .unity-text-element {
+    color: rgb(255, 255, 255);
+    min-height: 235px;
+    flex-wrap: nowrap;
+    white-space: normal;
+}
+
+.social-button {
+    background-image: url("project://database/Assets/Assets/Logos_Students/social%20button/cuttegning1.png?fileID=-827389197834577540&guid=98e786fc35d00a446b93581160c32f03&type=3#cuttegning1_2");
+    -unity-background-scale-mode: scale-to-fit;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.CButton {
+}
