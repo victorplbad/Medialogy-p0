@@ -38,6 +38,11 @@ public class UiController : MonoBehaviour
         root.UnregisterCallback<GeometryChangedEvent>(OnGeometryChanged);
 
         // Now that the layout is ready, bind the buttons.
+
+        var scene = Document.visualTreeAsset;
+        lastScene = scene;
+        currentScene = scene;
+
         BindButtons(root);
 
         Debug.Log("Binding after geometry change:");
