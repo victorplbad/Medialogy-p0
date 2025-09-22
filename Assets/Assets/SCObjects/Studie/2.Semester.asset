@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 48df0505e1c912f4b847a0dde25a92db, type: 3}
-  m_Name: "Studie_forl\xF8b"
+  m_Name: 2.Semester
   m_EditorClassIdentifier: 
-  SceneToGoTo: {fileID: 9197481963319205126, guid: c7de367b9c91e294398f177e47002c36, type: 3}
+  SceneToGoTo: {fileID: 9197481963319205126, guid: 5b24b75bc129cd540a7c23f110b2590f, type: 3}

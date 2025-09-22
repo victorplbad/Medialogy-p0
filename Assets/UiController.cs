@@ -13,6 +13,8 @@ public class UiController : MonoBehaviour
     public UIDocument Document;
 
     public event Action<VisualTreeAsset> OnSceneChanged;
+    public VisualTreeAsset lastScene{ get; private set; }
+    private VisualTreeAsset currentScene{ get; set; }
 
     // Define a ButtonBehavior class (or use your existing one)
     [Serializable]
@@ -44,6 +46,16 @@ public class UiController : MonoBehaviour
 
     public void ChangeSceneTo(VisualTreeAsset scene)
     {
+        if (lastScene is null)
+        {
+            lastScene = scene;
+            currentScene = scene;
+        }
+        else
+        {
+            lastScene = currentScene;
+            currentScene = scene;
+        }
         root.Clear();
 
         //Remove all video players from object

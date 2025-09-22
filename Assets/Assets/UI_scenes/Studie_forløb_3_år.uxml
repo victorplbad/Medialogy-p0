@@ -12,35 +12,23 @@
     </VisualElement>
     <VisualElement name="VisualElement" style="flex-grow: 1; margin-bottom: 315px;">
         <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden">
-            <Label text="2. Semester" class="Label" style="font-size: 90px; -unity-text-align: middle-center; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0);" />
+            <Label text="1. år" class="Label" style="font-size: 90px; -unity-text-align: middle-center; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0);" />
             <VisualElement class="element_margin" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Mobile.png?fileID=2800000&amp;guid=ee86f4053463db64d9085880670a6dfe&amp;type=3#Mobile&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="Menneske-maskine interaktion" class="Label barlow" style="flex-grow: 1; font-size: 60px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
+                    <Label text="1. Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement class="element_margin" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Book.png?fileID=2800000&amp;guid=1fb3985b13eb622478cc8478546c0215&amp;type=3#Book&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="Interaktionsdesign" class="Label barlow" style="flex-grow: 1; font-size: 60px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
+                    <Label text="2. Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
-            <VisualElement name="VisualElement" class="element_margin" style="flex-grow: 1;">
+            <VisualElement class="element_margin" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Users_Group.png?fileID=2800000&amp;guid=5749477e766032448b947d61852685e5&amp;type=3#Users_Group&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="Programmering af mobile applikationer " class="Label barlow" style="flex-grow: 1; font-size: 60px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
-                </VisualElement>
-            </VisualElement>
-            <VisualElement name="VisualElement" class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
-                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Users_Group.png?fileID=2800000&amp;guid=5749477e766032448b947d61852685e5&amp;type=3#Users_Group&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="UX: kvantitativ brugerevaluering&#10;" class="Label barlow" style="flex-grow: 1; font-size: 60px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
-                </VisualElement>
-            </VisualElement>
-            <VisualElement name="VisualElement" class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
-                    <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Users_Group.png?fileID=2800000&amp;guid=5749477e766032448b947d61852685e5&amp;type=3#Users_Group&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="Go til 3. Semester" class="Label barlow" style="flex-grow: 1; font-size: 60px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
+                    <Label text="Projecter" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
         </ScrollView>
