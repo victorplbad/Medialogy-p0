@@ -4,8 +4,8 @@
     <VisualElement name="top_bar" template="top_bar">
         <VisualElement name="top_background" style="flex-grow: 1; height: 300px; background-color: rgb(33, 26, 82); max-height: 300px; flex-direction: column-reverse; padding-bottom: 0; margin-top: 0; flex-shrink: 1; align-items: stretch; justify-content: space-between; align-self: stretch;">
             <VisualElement style="flex-grow: 1; height: 85px; flex-direction: row; flex-wrap: nowrap;">
-                <VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logofiler-til-web/Logofiler%20til%20web/WHITE/__AAU_LEFT_WHITE.png?fileID=2800000&amp;guid=f0009ae54c67e544b985a8c294b4e3de&amp;type=3#__AAU_LEFT_WHITE&quot;); -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; margin-right: 130px; padding-top: 45px; margin-bottom: 0; margin-left: 60px; height: 200px;" />
-                <Label text="Socialt liv" enable-rich-text="false" class="Label barlow" style="font-size: 60px; margin-right: 50px; -unity-text-align: middle-right; white-space: pre-wrap; width: 550px; height: 200px; padding-bottom: 18px;" />
+                <VisualElement name="VisualElement" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; flex-shrink: 1; margin-right: 0; padding-top: 0; margin-bottom: 0; margin-left: 0; height: 183px; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; background-repeat: no-repeat no-repeat; background-position-x: left -10px; background-position-y: center 0; flex-wrap: nowrap; margin-top: 0; rotate: 180deg; padding-right: 0; padding-bottom: 0; padding-left: 0; left: -398px;" />
+                <Label text="Socialt liv" enable-rich-text="false" class="Label barlow" style="font-size: 63px; margin-right: 63px; -unity-text-align: middle-right; white-space: pre-wrap; width: 550px; height: 200px; padding-bottom: 18px; -unity-font-style: bold;" />
             </VisualElement>
             <VisualElement style="flex-grow: 1;" />
         </VisualElement>
@@ -13,16 +13,16 @@
     <VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column-reverse;">
         <ScrollView name="ScrollView" vertical-scroller-visibility="Hidden" horizontal-scroller-visibility="Hidden" style="margin-bottom: 149px; height: 100%; padding-bottom: 0;">
             <VisualElement style="flex-grow: 1; margin-top: 90px; margin-bottom: 90px;">
-                <VisualElement xmlns:ui="UnityEngine.UIElements" template="Round_element">
+                <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Round_element">
                     <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-direction: row; flex-shrink: initial;">
                         <ui:VisualElement name="round_image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/round_Slusen_logo.png?fileID=2800000&amp;guid=e92552ef343d0964baace7ac0614f189&amp;type=3#round_Slusen_logo&quot;); -unity-background-scale-mode: scale-to-fit; width: 300px; height: 300px; margin-left: 0%; margin-right: 0%; flex-shrink: 1;" />
                     </ui:VisualElement>
-                </VisualElement>
+                </ui:VisualElement>
             </VisualElement>
-            <VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box">
+            <ui:VisualElement xmlns:ui="UnityEngine.UIElements" template="Flex_text_box">
                 <Style src="project://database/Assets/style.uss?fileID=7433441132597879392&amp;guid=a6367d7c553692241b35c93b11b1b048&amp;type=3#style" />
                 <ui:Label text="Slusen is AAU Copenhagen’s Friday bar. Here, you can come by after a long day to grab a beer or just hang out with your fellow students. It’s usually open every Friday from 3 PM to 11 PM." name="Flex_text_box" class="Label ui_element_background barlow" style="background-size: 100% 100%; width: 95%; align-items: center; align-self: center; white-space: normal; font-size: 60px; -unity-text-align: upper-left; padding-left: 45px; padding-right: 45px; padding-top: 40px; padding-bottom: 40px; margin-top: 0%; margin-bottom: 0%;" />
-            </VisualElement>
+            </ui:VisualElement>
         </ScrollView>
     </VisualElement>
     <Instance template="buttom_bar" />
