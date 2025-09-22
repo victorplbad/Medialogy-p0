@@ -1,7 +1,8 @@
 using System;
-using System.ComponentModel.Design.Serialization;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.Video;
 
 public class UiController : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class UiController : MonoBehaviour
     private VisualElement root;
 
     public UIDocument Document;
+
+    public event Action<VisualTreeAsset> OnSceneChanged;
 
     // Define a ButtonBehavior class (or use your existing one)
     [Serializable]
@@ -43,8 +46,13 @@ public class UiController : MonoBehaviour
     {
         root.Clear();
 
+        //Remove all video players from object
+        GetComponents<VideoPlayer>().ToList().ForEach(vp => Destroy(vp));
+
         var newScene = scene.Instantiate();
         scene.CloneTree(root);
+
+        OnSceneChanged?.Invoke(scene);
 
         // rebind after loading new scene
         BindButtons(root);
