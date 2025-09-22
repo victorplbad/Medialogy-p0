@@ -789,7 +789,7 @@ PrefabInstance:
     - target: {fileID: 5096491206551000721, guid: 4ee0e64b06d44834fa5ace71496c15b8, type: 3}
       propertyPath: sourceAsset
       value: 
-      objectReference: {fileID: 9197481963319205126, guid: 3be21e37164da3649b1cfec777efe7a7, type: 3}
+      objectReference: {fileID: 9197481963319205126, guid: a90eb0efbe571064b9618408daff3c8a, type: 3}
     - target: {fileID: 7057735446518096032, guid: 4ee0e64b06d44834fa5ace71496c15b8, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
