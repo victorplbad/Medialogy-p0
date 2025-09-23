@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> e413612 (fix some button connections, and add the uxml sites for the year projects)
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!28 &-3790305835812149186
@@ -21308,6 +21311,7 @@ MonoBehaviour:
     kerningPairs: []
   fallbackFontAssets: []
   atlas: {fileID: 0}
+<<<<<<< HEAD
 =======
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
@@ -42673,3 +42677,5 @@ MonoBehaviour:
   fallbackFontAssets: []
   atlas: {fileID: 0}
 >>>>>>> Stashed changes
+=======
+>>>>>>> e413612 (fix some button connections, and add the uxml sites for the year projects)
