@@ -18,15 +18,6 @@
     border-right-width: 20px;
 }
 
-.ui_element_background {
-    background-color: rgba(0, 0, 0, 0.91);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    color: rgb(255, 255, 255);
-}
-
 .element_margin {
     margin-top: 1%;
     margin-bottom: 1%;
@@ -43,6 +34,15 @@
 .unity-toggle__checkmark {
     display: none;
     opacity: 0;
+}
+
+.ui_element_background {
+    background-color: rgba(0, 0, 0, 0.91);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: rgb(255, 255, 255);
 }
 
 .unity-foldout__content {
