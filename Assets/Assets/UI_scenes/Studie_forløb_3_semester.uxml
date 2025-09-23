@@ -45,6 +45,19 @@
                     </Foldout>
                 </VisualElement>
             </VisualElement>
+            <VisualElement name="VisualElement" class="element_margin" style="flex-grow: 1; top: 0%;">
+                <VisualElement name="VisualElement" class="ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 200px; justify-content: flex-start; align-items: center; min-height: auto; top: auto;">
+                    <VisualElement name="VisualElement" class="button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; width: 250px; height: 150px; align-self: flex-start; margin-top: 19px; margin-bottom: 0; padding-top: 0; flex-direction: column; rotate: 180deg; align-content: stretch; justify-content: flex-start; align-items: stretch;" />
+                    <VisualElement name="VisualElement" style="flex-grow: 1; width: 50%; height: 60%; right: 0%; font-size: 40px; align-content: flex-start; justify-content: space-evenly;">
+                        <Label text="Forrige semester" style="-unity-text-align: middle-center; align-self: center; align-content: stretch; justify-content: flex-start; align-items: auto; font-size: 45px;" />
+                    </VisualElement>
+                    <VisualElement name="VisualElement" style="flex-grow: 1; width: 21%; height: 60%; right: 0%;" />
+                    <VisualElement style="flex-grow: 1; width: 50%; height: 60%; font-size: 30px; justify-content: space-evenly;">
+                        <Label text="Næste semester" style="-unity-text-align: middle-center; justify-content: flex-start; font-size: 45px;" />
+                    </VisualElement>
+                    <VisualElement class="button" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; width: 250px; height: 150px; align-self: flex-start; margin-top: 19px; margin-bottom: 0; padding-top: 0; align-content: stretch;" />
+                </VisualElement>
+            </VisualElement>
         </ScrollView>
     </VisualElement>
     <Instance template="buttom_bar" />
