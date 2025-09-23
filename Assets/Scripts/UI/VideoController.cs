@@ -12,7 +12,7 @@ public class VideoController : MonoBehaviour
         _document = GetComponent<UIDocument>();
     }
 
-    void Start()
+    private void Start()
     {
         GetComponent<UiController>().OnSceneChanged += (scene) =>
         {

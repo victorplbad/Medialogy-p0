@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(ScrollRect))]
-public class ScrollController : MonoBehaviour
+public class ScrollController_Old : MonoBehaviour
 {
     public enum ScrollState
     {
@@ -66,7 +66,7 @@ public class ScrollController : MonoBehaviour
         }
 
         Vector2 touchDelta = mousePosition - _previousPosition;
-        
+
 
         Debug.Log($"Touch Delta: {touchDelta}, Magnitude: {touchDelta.magnitude}");
         if (touchDelta.magnitude < _magnitudeThreshold)
