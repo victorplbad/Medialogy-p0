@@ -3,12 +3,31 @@ using UnityEngine.UIElements;
 
 public class ScrollController : MonoBehaviour
 {
+    public enum ScrollDirection
+    {
+        Horizontal,
+        Vertical,
+        Both
+    }
+
     private VisualElement _root;
     private UIDocument _document;
 
-    private Vector3 _origin;
     private Vector3 _previousPos;
     private bool _isDragging;
+
+    private VisualElement _picture;
+    private Vector3 _origin;
+
+    [Header("Scroll Settings")]
+    [Range(0, 100)][SerializeField] private float _sensitivity = 1.0f;
+    [SerializeField] private ScrollDirection _scrollDirection = ScrollDirection.Horizontal;
+    [SerializeField] private float _elasticity = 0.1f; // How much to "bounce back" when over-scrolled
+    [SerializeField] private float _inertia = 0.9f; // How much to continue moving after drag ends
+    [SerializeField] private float _decelerationRate = 0.135f; // Rate of deceleration when inertia is applied
+    [SerializeField] private float _scrollThreshold = 5.0f; // Minimum drag distance to start scrolling
+    [SerializeField] private bool _clampToBounds = true; // Whether to clamp scrolling within bounds
+    [SerializeField] private Rect _scrollBounds = new Rect(0, 0, 1000, 1000); // Define the scrollable area
 
     private void Awake()
     {
@@ -53,10 +72,7 @@ public class ScrollController : MonoBehaviour
 
         foreach (var swipe in swipes)
         {
-            /*if (swipe.dataSource is not ScrollBehavior so)
-            {
-                continue;
-            }*/
+            //INITIATE SCROLL
 
             swipe.RegisterCallback<PointerDownEvent>(evt =>
             {
@@ -64,6 +80,8 @@ public class ScrollController : MonoBehaviour
 
                 _previousPos = evt.position;
                 _isDragging = true;
+
+                Debug.Log($"Swipe origin: {_previousPos}");
             });
 
             swipe.RegisterCallback<PointerMoveEvent>(evt =>
@@ -73,6 +91,8 @@ public class ScrollController : MonoBehaviour
 
                 var currentPos = evt.position;
                 var delta = currentPos - _previousPos;
+
+                OnScroll();
 
                 _previousPos = currentPos;
                 Debug.Log($"Swipe delta: {delta}");
@@ -90,5 +110,15 @@ public class ScrollController : MonoBehaviour
 
             Debug.Log($"Binding swipe: {swipe}");
         }
+    }
+
+    private void OnScroll()
+    {
+        // Implement scroll logic here
+    }
+
+    private void Update()
+    {
+        // Implement inertia and elasticity logic here
     }
 }
