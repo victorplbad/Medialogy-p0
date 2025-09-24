@@ -12,21 +12,21 @@
     </VisualElement>
     <VisualElement name="VisualElement" style="flex-grow: 1; margin-bottom: 315px;">
         <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden">
-            <Label text="1. år" class="Label" style="font-size: 90px; -unity-text-align: middle-center; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0);" />
+            <Label text="3. år" class="Label" style="font-size: 90px; -unity-text-align: middle-center; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0);" />
             <VisualElement class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/5.Semester.asset?fileID=11400000&amp;guid=75634ee7c8f244f4782b707d66b6f574&amp;type=2#5.Semester" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Mobile.png?fileID=2800000&amp;guid=ee86f4053463db64d9085880670a6dfe&amp;type=3#Mobile&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="1. Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
+                    <Label text="5. Semester" data-source="project://database/Assets/Assets/SCObjects/Studie/5.Semester.asset?fileID=11400000&amp;guid=75634ee7c8f244f4782b707d66b6f574&amp;type=2#5.Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/6.Semester.asset?fileID=11400000&amp;guid=042147d166a5ea647ad41de47b389edb&amp;type=2#6.Semester" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Book.png?fileID=2800000&amp;guid=1fb3985b13eb622478cc8478546c0215&amp;type=3#Book&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="2. Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
+                    <Label text="6. Semester" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/Projecter.asset?fileID=11400000&amp;guid=3f274db1c2995dd4895338cbc9cbf0af&amp;type=2#Projecter" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Users_Group.png?fileID=2800000&amp;guid=5749477e766032448b947d61852685e5&amp;type=3#Users_Group&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
                     <Label text="Projecter" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
