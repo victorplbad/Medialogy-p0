@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ScrollController : MonoBehaviour
 {
@@ -14,21 +15,20 @@ public class ScrollController : MonoBehaviour
     private VisualElement _root;
     private UIDocument _document;
 
-    private Vector3 _previousPos;
-    private bool _isDragging;
+    private Dictionary<VisualElement, Vector3> _previousPosMap = new Dictionary<VisualElement, Vector3>();
+    private Dictionary<VisualElement, bool> _isDraggingMap = new Dictionary<VisualElement, bool>();
+    private Dictionary<VisualElement, bool> _canDragMap = new Dictionary<VisualElement, bool>();
 
-    private VisualElement _picture;
-    private Vector3 _origin;
+    private Dictionary<VisualElement, VisualElement> _pictureMap = new Dictionary<VisualElement, VisualElement>();
+    private Dictionary<VisualElement, VisualElement> _containerMap = new Dictionary<VisualElement, VisualElement>();
+    private Dictionary<VisualElement, Vector3> _originMap = new Dictionary<VisualElement, Vector3>();
 
     [Header("Scroll Settings")]
     [Range(0, 100)][SerializeField] private float _sensitivity = 1.0f;
     [SerializeField] private ScrollDirection _scrollDirection = ScrollDirection.Horizontal;
     [SerializeField] private float _elasticity = 0.1f; // How much to "bounce back" when over-scrolled
-    [SerializeField] private float _inertia = 0.9f; // How much to continue moving after drag ends
-    [SerializeField] private float _decelerationRate = 0.135f; // Rate of deceleration when inertia is applied
-    [SerializeField] private float _scrollThreshold = 5.0f; // Minimum drag distance to start scrolling
     [SerializeField] private bool _clampToBounds = true; // Whether to clamp scrolling within bounds
-    private Vector2 _scrollBounds = new Vector2(); // Define the scrollable area
+    private Dictionary<VisualElement, Vector2> _scrollBoundsMap = new Dictionary<VisualElement, Vector2>();
 
     private void Awake()
     {
@@ -39,9 +39,7 @@ public class ScrollController : MonoBehaviour
     {
         GetComponent<UiController>().OnSceneChanged += (scene) =>
         {
-            _root.Clear();
-            var newScene = scene.Instantiate();
-            scene.CloneTree(_root);
+            ClearScrolls();
 
             BindScroll(_root);
         };
@@ -65,107 +63,149 @@ public class ScrollController : MonoBehaviour
 
     private void BindScroll(VisualElement parent)
     {
-        Debug.Log("Binding scrolls");
-
         // Find ALL VisualElements that should act as buttons
         var swipes = parent.Query<VisualElement>(className: "CSwipe").ToList();
         // ^ you can mark them with a USS class = "button" in UXML
 
+        if (swipes.Count == 0)
+        {
+            Debug.Log("No swipes found");
+            return;
+        }
+
         foreach (var swipe in swipes)
         {
-            //INITIATE SCROLL
-            _picture = parent.Query<VisualElement>(className: "SwipePicture").First();
-            _origin = _picture.transform.position;
-            _scrollBounds = new Vector2(_picture.layout.width, _picture.layout.height);
-
-            swipe.RegisterCallback<PointerDownEvent>(evt =>
-            {
-                Debug.Log("Swipe started");
-
-                _previousPos = evt.position;
-                _isDragging = true;
-
-                Debug.Log($"Swipe origin: {_previousPos}");
-            });
-
-            swipe.RegisterCallback<PointerMoveEvent>(evt =>
-            {
-                if (!_isDragging)
-                    return;
-
-                var currentPos = evt.position;
-                var delta = currentPos - _previousPos;
-
-                OnScroll();
-
-                _previousPos = currentPos;
-                Debug.Log($"Swipe delta: {delta}");
-            });
-
-            swipe.RegisterCallback<PointerUpEvent>(evt =>
-            {
-                Debug.Log("Swipe ended");
-
-                if (!_isDragging)
-                    return;
-
-                var endPos = _picture.transform.position;
-                var delta = endPos - _origin;
-                Debug.Log($"Swipe total delta: {delta}");
-
-                //if picture is out of bounds, elasticity back to origin
-                if (_clampToBounds)
-                {
-                    var clampedPos = endPos;
-                    clampedPos.x = Mathf.Clamp(clampedPos.x, _origin.x - _scrollBounds.x, _origin.x);
-                    clampedPos.y = Mathf.Clamp(clampedPos.y, _origin.y - _scrollBounds.y, _origin.y);
-
-                    if (clampedPos != endPos)
-                    {
-                        // Start a coroutine to smoothly move back to clamped position
-                        StartCoroutine(ElasticReturn(clampedPos));
-                    }
-                }
-
-                _isDragging = false;
-            });
-
-            Debug.Log($"Binding swipe: {swipe}");
+            InitScroll(swipe);
         }
     }
 
-    private void OnScroll()
+    private void InitScroll(VisualElement swipe)
     {
-        // Implement scroll logic here
-        var newPos = _picture.transform.position;
-        if (_scrollDirection == ScrollDirection.Horizontal || _scrollDirection == ScrollDirection.Both)
+        var picture = swipe.Query<VisualElement>(className: "SwipePicture").First();
+        var container = swipe.Query<VisualElement>(className: "SwipeContent").First();
+
+        _pictureMap.Add(swipe, picture);
+        _containerMap.Add(swipe, container);
+        _originMap.Add(swipe, container.transform.position);
+        _scrollBoundsMap.Add(swipe, new Vector2(picture.resolvedStyle.width, picture.resolvedStyle.height));
+
+        Debug.Log($"Scroll bounds for {swipe}: {_scrollBoundsMap[swipe]}");
+        //Debug.Log($"{picture}: {picture.resolvedStyle.width}x{picture.resolvedStyle.height}");
+        Debug.Log($"Origin for {swipe}: {_originMap[swipe]}");
+
+        _previousPosMap.Add(swipe, Vector3.zero);
+        _isDraggingMap.Add(swipe, false);
+
+        swipe.RegisterCallback<PointerDownEvent>(evt =>
         {
-            newPos.x += (_previousPos.x - Input.mousePosition.x) * _sensitivity * Time.deltaTime;
+            if (!_canDragMap[swipe])
+                return;
+
+            Debug.Log("Swipe started");
+
+            _previousPosMap[swipe] = evt.position;
+            _isDraggingMap[swipe] = true;
+
+            Debug.Log($"Swipe origin: {_previousPosMap[swipe]}");
+        });
+
+        swipe.RegisterCallback<PointerMoveEvent>(evt =>
+        {
+            if (!_isDraggingMap[swipe])
+                return;
+
+            var currentPos = evt.position;
+            var delta = currentPos - _previousPosMap[swipe];
+
+            OnScroll(swipe, delta);
+
+            _previousPosMap[swipe] = currentPos;
+            Debug.Log($"Swipe delta: {delta}");
+        });
+
+        swipe.RegisterCallback<PointerUpEvent>(evt => PointerUp(swipe));
+
+        _canDragMap.Add(swipe, true);
+        Debug.Log($"Bound swipe: {swipe}");
+    }
+
+    private void PointerUp(VisualElement swipe)
+    {
+        if (!_isDraggingMap[swipe])
+            return;
+
+        var endPos = _containerMap[swipe].transform.position;
+        var delta = endPos - _originMap[swipe];
+        var endBounds = _scrollBoundsMap[swipe] * 0.5f;
+        Debug.Log($"Swipe total delta: {delta}");
+
+        if (IsOverBounds(endPos, endBounds))
+        {
+            Debug.Log("Over bounds!");
         }
 
+        //Elastic return
+        StartCoroutine(ElasticReturn(swipe, _originMap[swipe]));
+
+        _isDraggingMap[swipe] = false;
+        Debug.Log("Swipe ended");
+    }
+
+    private bool IsOverBounds(Vector2 endPos, Vector2 bounds)
+    {
+        if (endPos.x < -bounds.x || endPos.x > bounds.x)
+            return true;
+        if (endPos.y < -bounds.y || endPos.y > bounds.y)
+            return true;
+
+        return false;
+    }
+
+    private void OnScroll(VisualElement swipe, Vector2 delta)
+    {
+        // Implement scroll logic here
+        var newPos = _containerMap[swipe].transform.position;
+        if (_scrollDirection == ScrollDirection.Horizontal || _scrollDirection == ScrollDirection.Both)
+        {
+            newPos.x += delta.x * _sensitivity * 100 * Time.deltaTime;
+        }
         if (_scrollDirection == ScrollDirection.Vertical || _scrollDirection == ScrollDirection.Both)
         {
-            newPos.y += (_previousPos.y - Input.mousePosition.y) * _sensitivity * Time.deltaTime;
+            newPos.y += delta.y * _sensitivity * 100 * Time.deltaTime;
         }
 
         if (_clampToBounds)
         {
-            newPos.x = Mathf.Clamp(newPos.x, _origin.x - _scrollBounds.x, _origin.x);
-            newPos.y = Mathf.Clamp(newPos.y, _origin.y - _scrollBounds.y, _origin.y);
+            newPos.x = Mathf.Clamp(newPos.x, -_scrollBoundsMap[swipe].x, _scrollBoundsMap[swipe].x);
+            newPos.y = Mathf.Clamp(newPos.y, -_scrollBoundsMap[swipe].y, _scrollBoundsMap[swipe].y);
         }
 
-        _picture.transform.position = newPos;
+        _containerMap[swipe].transform.position = newPos;
         Debug.Log($"New position: {newPos}");
     }
 
-    private IEnumerator ElasticReturn(Vector3 targetPos)
+    private IEnumerator ElasticReturn(VisualElement swipe, Vector3 targetPos)
     {
-        while (Vector3.Distance(_picture.transform.position, targetPos) > 0.1f)
+        _canDragMap[swipe] = false;
+
+        while (Vector3.Distance(_containerMap[swipe].transform.position, targetPos) > 0.1f)
         {
-            _picture.transform.position = Vector3.Lerp(_picture.transform.position, targetPos, _elasticity);
+            _containerMap[swipe].transform.position = Vector3.Lerp(_containerMap[swipe].transform.position, targetPos, _elasticity);
             yield return null;
         }
 
-        _picture.transform.position = targetPos;
+        _containerMap[swipe].transform.position = targetPos;
+        _canDragMap[swipe] = true;
+    }
+
+    private void ClearScrolls()
+    {
+        _previousPosMap.Clear();
+        _isDraggingMap.Clear();
+        _canDragMap.Clear();
+        _pictureMap.Clear();
+        _containerMap.Clear();
+        _originMap.Clear();
+        _scrollBoundsMap.Clear();
     }
 }

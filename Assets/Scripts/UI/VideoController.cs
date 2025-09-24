@@ -16,10 +16,6 @@ public class VideoController : MonoBehaviour
     {
         GetComponent<UiController>().OnSceneChanged += (scene) =>
         {
-            _root.Clear();
-            var newScene = scene.Instantiate();
-            scene.CloneTree(_root);
-
             BindButtons(_root);
         };
     }
