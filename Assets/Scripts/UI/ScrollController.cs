@@ -46,12 +46,8 @@ public class ScrollController : MonoBehaviour
 
     private IEnumerator SceneChanged()
     {
+        yield return null; // Wait a frame for the scene to load
         ClearScrolls();
-
-        //Force Layout Recalculations before binding
-        _root.MarkDirtyRepaint();
-        yield return new WaitForEndOfFrame();
-
         BindScroll(_root);
     }
 
