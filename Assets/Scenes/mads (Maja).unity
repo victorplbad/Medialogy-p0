@@ -823,6 +823,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22922d07edd8daf4f882d15ce04abbd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _sensitivity: 5
+  _scrollDirection: 0
+  _elasticity: 0.2
+  _inertia: 0.9
+  _decelerationRate: 0.135
+  _scrollThreshold: 5
+  _clampToBounds: 0
 --- !u!1001 &1138016456106770343
 PrefabInstance:
   m_ObjectHideFlags: 0

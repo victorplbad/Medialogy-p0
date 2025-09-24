@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using System.Collections;
 
 public class ScrollController : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class ScrollController : MonoBehaviour
     [SerializeField] private float _decelerationRate = 0.135f; // Rate of deceleration when inertia is applied
     [SerializeField] private float _scrollThreshold = 5.0f; // Minimum drag distance to start scrolling
     [SerializeField] private bool _clampToBounds = true; // Whether to clamp scrolling within bounds
-    [SerializeField] private Rect _scrollBounds = new Rect(0, 0, 1000, 1000); // Define the scrollable area
+    private Vector2 _scrollBounds = new Vector2(); // Define the scrollable area
 
     private void Awake()
     {
@@ -73,6 +74,9 @@ public class ScrollController : MonoBehaviour
         foreach (var swipe in swipes)
         {
             //INITIATE SCROLL
+            _picture = parent.Query<VisualElement>(className: "SwipePicture").First();
+            _origin = _picture.transform.position;
+            _scrollBounds = new Vector2(_picture.layout.width, _picture.layout.height);
 
             swipe.RegisterCallback<PointerDownEvent>(evt =>
             {
@@ -105,6 +109,24 @@ public class ScrollController : MonoBehaviour
                 if (!_isDragging)
                     return;
 
+                var endPos = _picture.transform.position;
+                var delta = endPos - _origin;
+                Debug.Log($"Swipe total delta: {delta}");
+
+                //if picture is out of bounds, elasticity back to origin
+                if (_clampToBounds)
+                {
+                    var clampedPos = endPos;
+                    clampedPos.x = Mathf.Clamp(clampedPos.x, _origin.x - _scrollBounds.x, _origin.x);
+                    clampedPos.y = Mathf.Clamp(clampedPos.y, _origin.y - _scrollBounds.y, _origin.y);
+
+                    if (clampedPos != endPos)
+                    {
+                        // Start a coroutine to smoothly move back to clamped position
+                        StartCoroutine(ElasticReturn(clampedPos));
+                    }
+                }
+
                 _isDragging = false;
             });
 
@@ -115,10 +137,35 @@ public class ScrollController : MonoBehaviour
     private void OnScroll()
     {
         // Implement scroll logic here
+        var newPos = _picture.transform.position;
+        if (_scrollDirection == ScrollDirection.Horizontal || _scrollDirection == ScrollDirection.Both)
+        {
+            newPos.x += (_previousPos.x - Input.mousePosition.x) * _sensitivity * Time.deltaTime;
+        }
+
+        if (_scrollDirection == ScrollDirection.Vertical || _scrollDirection == ScrollDirection.Both)
+        {
+            newPos.y += (_previousPos.y - Input.mousePosition.y) * _sensitivity * Time.deltaTime;
+        }
+
+        if (_clampToBounds)
+        {
+            newPos.x = Mathf.Clamp(newPos.x, _origin.x - _scrollBounds.x, _origin.x);
+            newPos.y = Mathf.Clamp(newPos.y, _origin.y - _scrollBounds.y, _origin.y);
+        }
+
+        _picture.transform.position = newPos;
+        Debug.Log($"New position: {newPos}");
     }
 
-    private void Update()
+    private IEnumerator ElasticReturn(Vector3 targetPos)
     {
-        // Implement inertia and elasticity logic here
+        while (Vector3.Distance(_picture.transform.position, targetPos) > 0.1f)
+        {
+            _picture.transform.position = Vector3.Lerp(_picture.transform.position, targetPos, _elasticity);
+            yield return null;
+        }
+
+        _picture.transform.position = targetPos;
     }
 }
