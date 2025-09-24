@@ -30,6 +30,7 @@ public class ScrollController : MonoBehaviour
     [SerializeField] private bool _clampToBounds = true; // Whether to clamp scrolling within bounds
     private Dictionary<VisualElement, Vector2> _scrollBoundsMap = new Dictionary<VisualElement, Vector2>();
 
+    #region Initialization
     private void Awake()
     {
         _document = GetComponent<UIDocument>();
@@ -39,10 +40,19 @@ public class ScrollController : MonoBehaviour
     {
         GetComponent<UiController>().OnSceneChanged += (scene) =>
         {
-            ClearScrolls();
-
-            BindScroll(_root);
+            StartCoroutine(SceneChanged());
         };
+    }
+
+    private IEnumerator SceneChanged()
+    {
+        ClearScrolls();
+
+        //Force Layout Recalculations before binding
+        _root.MarkDirtyRepaint();
+        yield return new WaitForEndOfFrame();
+
+        BindScroll(_root);
     }
 
     private void OnEnable()
@@ -90,43 +100,48 @@ public class ScrollController : MonoBehaviour
         _scrollBoundsMap.Add(swipe, new Vector2(picture.resolvedStyle.width, picture.resolvedStyle.height));
 
         Debug.Log($"Scroll bounds for {swipe}: {_scrollBoundsMap[swipe]}");
-        //Debug.Log($"{picture}: {picture.resolvedStyle.width}x{picture.resolvedStyle.height}");
+        Debug.Log($"{picture}: {picture.resolvedStyle.width}x{picture.resolvedStyle.height}");
         Debug.Log($"Origin for {swipe}: {_originMap[swipe]}");
 
         _previousPosMap.Add(swipe, Vector3.zero);
         _isDraggingMap.Add(swipe, false);
 
-        swipe.RegisterCallback<PointerDownEvent>(evt =>
-        {
-            if (!_canDragMap[swipe])
-                return;
-
-            Debug.Log("Swipe started");
-
-            _previousPosMap[swipe] = evt.position;
-            _isDraggingMap[swipe] = true;
-
-            Debug.Log($"Swipe origin: {_previousPosMap[swipe]}");
-        });
-
-        swipe.RegisterCallback<PointerMoveEvent>(evt =>
-        {
-            if (!_isDraggingMap[swipe])
-                return;
-
-            var currentPos = evt.position;
-            var delta = currentPos - _previousPosMap[swipe];
-
-            OnScroll(swipe, delta);
-
-            _previousPosMap[swipe] = currentPos;
-            Debug.Log($"Swipe delta: {delta}");
-        });
-
+        // Register pointer events
+        swipe.RegisterCallback<PointerDownEvent>(evt => PointerDown(swipe, evt));
+        swipe.RegisterCallback<PointerMoveEvent>(evt => PointerMove(swipe, evt));
         swipe.RegisterCallback<PointerUpEvent>(evt => PointerUp(swipe));
 
         _canDragMap.Add(swipe, true);
         Debug.Log($"Bound swipe: {swipe}");
+    }
+    #endregion
+
+    #region Pointer Events
+    private void PointerDown(VisualElement swipe, PointerDownEvent evt)
+    {
+        if (!_canDragMap[swipe])
+            return;
+
+        Debug.Log("Swipe started");
+
+        _previousPosMap[swipe] = evt.position;
+        _isDraggingMap[swipe] = true;
+
+        Debug.Log($"Swipe origin: {_previousPosMap[swipe]}");
+    }
+
+    private void PointerMove(VisualElement swipe, PointerMoveEvent evt)
+    {
+        if (!_isDraggingMap[swipe])
+            return;
+
+        var currentPos = evt.position;
+        var delta = currentPos - _previousPosMap[swipe];
+
+        OnScroll(swipe, delta);
+
+        _previousPosMap[swipe] = currentPos;
+        Debug.Log($"Swipe delta: {delta}");
     }
 
     private void PointerUp(VisualElement swipe)
@@ -150,7 +165,9 @@ public class ScrollController : MonoBehaviour
         _isDraggingMap[swipe] = false;
         Debug.Log("Swipe ended");
     }
+    #endregion
 
+    #region Scroll Logic
     private bool IsOverBounds(Vector2 endPos, Vector2 bounds)
     {
         if (endPos.x < -bounds.x || endPos.x > bounds.x)
@@ -197,7 +214,9 @@ public class ScrollController : MonoBehaviour
         _containerMap[swipe].transform.position = targetPos;
         _canDragMap[swipe] = true;
     }
+    #endregion
 
+    #region Utility
     private void ClearScrolls()
     {
         _previousPosMap.Clear();
@@ -208,4 +227,5 @@ public class ScrollController : MonoBehaviour
         _originMap.Clear();
         _scrollBoundsMap.Clear();
     }
+    #endregion
 }

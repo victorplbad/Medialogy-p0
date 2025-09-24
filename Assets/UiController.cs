@@ -80,11 +80,6 @@ public class UiController : MonoBehaviour
         var buttons = parent.Query<VisualElement>(className: "CButton").ToList();
         // ^ you can mark them with a USS class = "button" in UXML
 
-        var picture = parent.Query<VisualElement>(className: "SwipePicture").First();
-
-        if (picture != null)
-            Debug.Log($"{picture}: {picture.resolvedStyle.width}x{picture.resolvedStyle.height}");
-
         foreach (var button in buttons)
         {
             if (button.dataSource is not button_behavior so)
