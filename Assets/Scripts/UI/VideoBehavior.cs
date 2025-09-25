@@ -40,5 +40,14 @@ public class VideoBehavior : ScriptableObject
 
         _videoPlayer.clip = VideoClip;
         _videoPlayer.targetTexture = RenderTexture;
+
+        ClearOutRenderTexture(RenderTexture);
+    }
+
+    private void ClearOutRenderTexture(RenderTexture renderTexture)
+    {
+        RenderTexture.active = renderTexture;
+        GL.Clear(true, true, Color.black);
+        RenderTexture.active = null;
     }
 }
