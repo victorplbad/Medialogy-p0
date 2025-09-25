@@ -60,6 +60,7 @@
     min-height: 235px;
     flex-wrap: nowrap;
     white-space: normal;
+    -unity-text-align: middle-left;
 }
 
 .social-button {
@@ -71,4 +72,32 @@
 }
 
 .CButton {
+}
+
+.unity-foldout {
+    -unity-text-align: upper-left;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-self: auto;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.CSwipe {
+}
+
+.CHeader {
+}
+
+.CLabel {
+}
+
+.CStyle {
+}
+
+.SwipePicture {
+}
+
+.SwipeContent {
 }
