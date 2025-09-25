@@ -19,13 +19,13 @@
                 </VisualElement>
             </VisualElement>
             <VisualElement class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/Projecter.asset?fileID=11400000&amp;guid=3f274db1c2995dd4895338cbc9cbf0af&amp;type=2#Projecter" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/projects_page.asset?fileID=11400000&amp;guid=3c81268d42fe4a44186929fc77f5b525&amp;type=2#projects_page" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/Book.png?fileID=2800000&amp;guid=1fb3985b13eb622478cc8478546c0215&amp;type=3#Book&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
                     <Label text="Projekter lavet af studerende" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement class="element_margin" style="flex-grow: 1;">
-                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/JobMuligheder.asset?fileID=11400000&amp;guid=a899b7d4116bbb24f918d33f8109c19f&amp;type=2#JobMuligheder" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/jobs_page.asset?fileID=11400000&amp;guid=365706e7237d3d24aaff0a0faa263fa7&amp;type=2#jobs_page" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/User_Card_ID.png?fileID=2800000&amp;guid=80bd0bacb73a0fa41a869b2f4e4f993f&amp;type=3#User_Card_ID&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
                     <Label text="Job muligheder" class="Label barlow" style="flex-grow: 1; font-size: 90px; -unity-text-align: middle-left; margin-left: 18px; max-width: 801px; min-height: 100%; min-width: 801px;" />
                 </VisualElement>
