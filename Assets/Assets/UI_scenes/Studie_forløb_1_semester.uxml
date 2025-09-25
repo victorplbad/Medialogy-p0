@@ -45,12 +45,10 @@
                     </Foldout>
                 </VisualElement>
             </VisualElement>
-            <VisualElement name="VisualElement" class="element_margin" style="flex-grow: 1; top: 0%;">
-                <VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 15px; justify-content: flex-end;">
-                    <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/4.Semester.asset?fileID=11400000&amp;guid=d10babfbadeab7e4ca163114b0dd4f43&amp;type=2#4.Semester" class="ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 550px; flex-direction: row; height: 200px; justify-content: flex-start; align-items: center; min-height: auto; top: auto; margin-right: 30px; margin-left: 15px; position: relative; right: 0;">
-                        <Label text="2. Semester" data-source="project://database/Assets/Assets/SCObjects/Studie/2.Semester.asset?fileID=11400000&amp;guid=04c740b9e23526b4e8bfe81343397577&amp;type=2#2.Semester" style="-unity-text-align: middle-center; justify-content: flex-start; font-size: 65px; margin-left: 20px;" />
-                        <VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; width: 250px; height: 150px; align-self: flex-start; margin-top: 19px; margin-bottom: 0; padding-top: 0; align-content: stretch; border-left-width: 0; padding-left: 0;" />
-                    </VisualElement>
+            <VisualElement style="flex-grow: 1; flex-direction: row; margin-top: 1%; flex-shrink: 1; align-items: auto; justify-content: flex-end; margin-left: 1%; margin-right: 2.5%; margin-bottom: 1%;">
+                <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Studie/2.Semester.asset?fileID=11400000&amp;guid=04c740b9e23526b4e8bfe81343397577&amp;type=2#2.Semester" class="ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 47.5%; flex-direction: row; height: 200px; justify-content: flex-start; align-items: center; min-height: auto; top: auto; margin-right: 0; margin-left: 1%;">
+                    <Label text="2. Semester" style="-unity-text-align: middle-center; justify-content: flex-start; font-size: 65px; margin-left: 20px;" />
+                    <VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; width: 250px; height: 150px; align-self: flex-start; margin-top: 19px; margin-bottom: 0; padding-top: 0; align-content: stretch; border-left-width: 0; padding-left: 0;" />
                 </VisualElement>
             </VisualElement>
         </ScrollView>
