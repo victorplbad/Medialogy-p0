@@ -825,7 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sensitivity: 4.5
   _scrollDirection: 0
-  _elasticity: 0.025
+  _elasticity: 0.04
   _clampToBounds: 1
 --- !u!1001 &1138016456106770343
 PrefabInstance:

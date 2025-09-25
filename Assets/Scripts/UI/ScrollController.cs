@@ -12,6 +12,15 @@ public class ScrollController : MonoBehaviour
         Both
     }
 
+    public enum OverBounds
+    {
+        None,
+        Left,
+        Right,
+        Top,
+        Bottom
+    }
+
     private VisualElement _root;
     private UIDocument _document;
 
@@ -20,6 +29,7 @@ public class ScrollController : MonoBehaviour
     private Dictionary<VisualElement, bool> _canDragMap = new Dictionary<VisualElement, bool>();
 
     private Dictionary<VisualElement, VisualElement> _pictureMap = new Dictionary<VisualElement, VisualElement>();
+    private Dictionary<VisualElement, Vector2> _pictureSizeMap = new Dictionary<VisualElement, Vector2>();
     private Dictionary<VisualElement, VisualElement> _containerMap = new Dictionary<VisualElement, VisualElement>();
     private Dictionary<VisualElement, Vector3> _originMap = new Dictionary<VisualElement, Vector3>();
 
@@ -29,6 +39,7 @@ public class ScrollController : MonoBehaviour
     [SerializeField] private float _elasticity = 0.1f; // How much to "bounce back" when over-scrolled
     [SerializeField] private bool _clampToBounds = true; // Whether to clamp scrolling within bounds
     private Dictionary<VisualElement, Vector2> _scrollBoundsMap = new Dictionary<VisualElement, Vector2>();
+    private Dictionary<VisualElement, Vector2> _scrollSizeMap = new Dictionary<VisualElement, Vector2>();
 
     #region Initialization
     private void Awake()
@@ -93,7 +104,9 @@ public class ScrollController : MonoBehaviour
         _pictureMap.Add(swipe, picture);
         _containerMap.Add(swipe, container);
         _originMap.Add(swipe, container.transform.position);
+        _pictureSizeMap.Add(swipe, new Vector2(picture.resolvedStyle.width, picture.resolvedStyle.height));
         _scrollBoundsMap.Add(swipe, new Vector2(picture.resolvedStyle.width, picture.resolvedStyle.height));
+        _scrollSizeMap.Add(swipe, new Vector2(swipe.resolvedStyle.width, swipe.resolvedStyle.height));
 
         Debug.Log($"Scroll bounds for {swipe}: {_scrollBoundsMap[swipe]}");
         Debug.Log($"{picture}: {picture.resolvedStyle.width}x{picture.resolvedStyle.height}");
@@ -147,12 +160,19 @@ public class ScrollController : MonoBehaviour
 
         var endPos = _containerMap[swipe].transform.position;
         var delta = endPos - _originMap[swipe];
-        var endBounds = _scrollBoundsMap[swipe] * 0.5f;
+        var endBounds = _scrollBoundsMap[swipe];
+        var outerBounds = _scrollSizeMap[swipe] * 0.5f;
+        outerBounds.x -= _pictureSizeMap[swipe].x * 0.5f;
+        outerBounds.y -= _pictureSizeMap[swipe].y * 0.5f;
         Debug.Log($"Swipe total delta: {delta}");
 
-        if (IsOverBounds(endPos, endBounds))
+        var overBounds = IsOverBounds(swipe, endPos, endBounds);
+
+        if (overBounds != OverBounds.None && !IsOverOuterBounds(endPos, outerBounds))
         {
             Debug.Log("Over bounds!");
+            ChangeToPicture(swipe, overBounds);
+            return;
         }
 
         //Elastic return
@@ -164,7 +184,21 @@ public class ScrollController : MonoBehaviour
     #endregion
 
     #region Scroll Logic
-    private bool IsOverBounds(Vector2 endPos, Vector2 bounds)
+    private OverBounds IsOverBounds(VisualElement swipe, Vector2 endPos, Vector2 bounds)
+    {
+        if (endPos.x < bounds.x - 1.5f * _pictureSizeMap[swipe].x)
+            return OverBounds.Left;
+        if (endPos.x > bounds.x - 0.5f * _pictureSizeMap[swipe].x)
+            return OverBounds.Right;
+        if (endPos.y < -bounds.y + 0.5f * _pictureSizeMap[swipe].y)
+            return OverBounds.Top;
+        if (endPos.y > bounds.y - 0.5f * _pictureSizeMap[swipe].y)
+            return OverBounds.Bottom;
+
+        return OverBounds.None;
+    }
+
+    private bool IsOverOuterBounds(Vector2 endPos, Vector2 bounds)
     {
         if (endPos.x < -bounds.x || endPos.x > bounds.x)
             return true;
@@ -172,6 +206,24 @@ public class ScrollController : MonoBehaviour
             return true;
 
         return false;
+    }
+
+    private void ChangeToPicture(VisualElement swipe, OverBounds direction)
+    {
+        var newOrigin = _originMap[swipe];
+        newOrigin.x = direction == OverBounds.Left ? newOrigin.x - _pictureSizeMap[swipe].x :
+                      direction == OverBounds.Right ? newOrigin.x + _pictureSizeMap[swipe].x : newOrigin.x;
+        _originMap[swipe] = newOrigin;
+
+        var newBounds = _scrollBoundsMap[swipe];
+        newBounds.x = direction == OverBounds.Left ? newBounds.x - _pictureSizeMap[swipe].x :
+                      direction == OverBounds.Right ? newBounds.x + _pictureSizeMap[swipe].x : newBounds.x;
+        _scrollBoundsMap[swipe] = newBounds;
+
+        StartCoroutine(ElasticReturn(swipe, newOrigin));
+
+        _isDraggingMap[swipe] = false;
+        Debug.Log("Swipe ended");
     }
 
     private void OnScroll(VisualElement swipe, Vector2 delta)
@@ -189,8 +241,8 @@ public class ScrollController : MonoBehaviour
 
         if (_clampToBounds)
         {
-            newPos.x = Mathf.Clamp(newPos.x, -_scrollBoundsMap[swipe].x, _scrollBoundsMap[swipe].x);
-            newPos.y = Mathf.Clamp(newPos.y, -_scrollBoundsMap[swipe].y, _scrollBoundsMap[swipe].y);
+            newPos.x = Mathf.Clamp(newPos.x, _scrollBoundsMap[swipe].x - 2 * _pictureSizeMap[swipe].x, _scrollBoundsMap[swipe].x);
+            //newPos.y = Mathf.Clamp(newPos.y, _scrollBoundsMap[swipe].y - _pictureSizeMap[swipe].y, _scrollBoundsMap[swipe].y + _pictureSizeMap[swipe].y);
         }
 
         _containerMap[swipe].transform.position = newPos;
@@ -222,6 +274,7 @@ public class ScrollController : MonoBehaviour
         _containerMap.Clear();
         _originMap.Clear();
         _scrollBoundsMap.Clear();
+        _pictureSizeMap.Clear();
     }
     #endregion
 }
