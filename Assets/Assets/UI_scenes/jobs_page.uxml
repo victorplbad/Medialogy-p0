@@ -12,9 +12,9 @@
     </VisualElement>
     <VisualElement name="VisualElement" style="flex-grow: 1; margin-bottom: 315px;">
         <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" />
-        <Label text="Sarune Baceviciute, Medialogi årgang 2008&#10;Research and Design Manager- Apple Vision Pro" class="Label" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0); margin-left: 1%;" />
-        <Label text="Anders, Medialogi årgang 2006&#10;FX Technical Director.&#10;Star Wars: Rogue One and The Last Jedi&#10;" class="Label" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0); margin-left: 1%;" />
-        <Label text="Kenneth, Alex, Kristian og Steffen, Medialogi 2007/08&#10;De designede og udgav Minion Masters: Forced to Duel og startede eget firma.&#10;" class="Label" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0); margin-left: 1%;" />
+        <Label text="Sarune Baceviciute, Medialogi årgang 2008&#10;Research and Design Manager- Apple Vision Pro" class="Label ui_element_background" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(255, 255, 255); margin-left: 1%;" />
+        <Label text="Anders, Medialogi årgang 2006&#10;FX Technical Director.&#10;Star Wars: Rogue One and The Last Jedi&#10;" class="Label ui_element_background" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(255, 255, 255); margin-left: 1%;" />
+        <Label text="Kenneth, Alex, Kristian og Steffen, Medialogi 2007/08&#10;De designede og udgav Minion Masters: Forced to Duel og startede eget firma.&#10;" class="Label ui_element_background" style="font-size: 90px; -unity-text-align: middle-left; margin-top: 30px; margin-bottom: 30px; color: rgb(255, 255, 255); margin-left: 1%;" />
     </VisualElement>
     <Instance template="buttom_bar" />
 </UXML>
