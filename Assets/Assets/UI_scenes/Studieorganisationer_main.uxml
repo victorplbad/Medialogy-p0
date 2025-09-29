@@ -14,19 +14,19 @@
             <VisualElement class="element_margin" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" data-source="project://database/Assets/Assets/SCObjects/Slusen.asset?fileID=11400000&amp;guid=4876ecb8fd3d93d478726c078a3af6ee&amp;type=2#Slusen" class="button ui_element_background CButton" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_Slusen_logo.png?fileID=2380621514592809173&amp;guid=e92552ef343d0964baace7ac0614f189&amp;type=3#round_Slusen_logo_0&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="slusen" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                    <Label text="Slusen" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement data-source="project://database/Assets/Assets/SCObjects/Amped.asset?fileID=11400000&amp;guid=4f90a3fe402acea479cfa51409d45ba5&amp;type=2#Amped" class="element_margin CButton" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_Amped_logo.png?fileID=2800000&amp;guid=29ae70f441b1bad47a6fd36eeba05c13&amp;type=3#round_Amped_logo&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="amped" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                    <Label text="AMPED" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
                 </VisualElement>
             </VisualElement>
             <VisualElement data-source="project://database/Assets/Assets/SCObjects/kaffepletten.asset?fileID=11400000&amp;guid=f49cb1b079ba58c4cb6fdfb91a066e68&amp;type=2#kaffepletten" class="element_margin CButton" style="flex-grow: 1;">
                 <VisualElement name="VisualElement" class="button ui_element_background" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: 300px; justify-content: flex-start; align-items: center; min-height: 275px;">
                     <VisualElement style="width: 200px; height: 200px; background-image: url(&quot;project://database/Assets/Images/logo/round_KP_logo.png?fileID=2800000&amp;guid=482659d53b4dd3a438ab9d38ebfa3f40&amp;type=3#round_KP_logo&quot;); -unity-background-scale-mode: scale-to-fit; margin-right: 30px; padding-left: 0; margin-left: 30px;" />
-                    <Label text="kaffepletten" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
+                    <Label text="Kaffepletten" class="Label barlow" style="flex-grow: 1; font-size: 110px; -unity-text-align: middle-left; margin-left: 18px;" />
                 </VisualElement>
             </VisualElement>
         </ScrollView>
