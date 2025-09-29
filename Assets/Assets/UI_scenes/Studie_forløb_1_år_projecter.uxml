@@ -11,7 +11,7 @@
         </VisualElement>
     </VisualElement>
     <VisualElement name="VisualElement" style="flex-grow: 1; margin-bottom: 315px;">
-        <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden">
+        <ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Hidden" style="height: 2100px;">
             <Label text="1. års projekter" class="Label" style="font-size: 90px; -unity-text-align: middle-center; margin-top: 30px; margin-bottom: 30px; color: rgb(0, 0, 0);" />
             <VisualElement name="VisualElement" class="ui_element_background element_margin" style="flex-grow: 0; align-self: center; width: 95%; flex-direction: row; height: auto; justify-content: flex-start; align-items: center; min-height: auto;">
                 <VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Images/logo/chevron_left_thin.png?fileID=2800000&amp;guid=9839b7d93b80f2244a558244d7ff04dc&amp;type=3#chevron_left_thin&quot;); -unity-background-scale-mode: scale-to-fit; width: 300px; height: 200px; align-self: flex-start; margin-top: 19px; margin-bottom: 0; padding-top: 0;" />
