@@ -9,6 +9,11 @@
     align-items: stretch;
     min-height: 3%;
     font-size: 20px;
+    white-space: normal;
+    height: auto;
+    min-height: auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -43,11 +48,19 @@
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
     color: rgb(255, 255, 255);
+    height: auto;
+    min-height: auto;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: auto;
 }
 
 .unity-foldout__content {
     margin-left: 0;
     padding-left: 7px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
 
 .unity-foldout_text {
