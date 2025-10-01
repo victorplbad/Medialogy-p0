@@ -71,18 +71,14 @@ public class ScrollController : MonoBehaviour
 
     private void OnGeometryChanged(GeometryChangedEvent evt)
     {
-        // Unregister the callback so this only runs once after the initial layout.
         _root.UnregisterCallback<GeometryChangedEvent>(OnGeometryChanged);
 
-        // Now that the layout is ready, bind the buttons.
         BindScroll(_root);
     }
 
     private void BindScroll(VisualElement parent)
     {
-        // Find ALL VisualElements that should act as buttons
         var swipes = parent.Query<VisualElement>(className: "CSwipe").ToList();
-        // ^ you can mark them with a USS class = "button" in UXML
 
         if (swipes.Count == 0)
         {
@@ -228,7 +224,6 @@ public class ScrollController : MonoBehaviour
 
     private void OnScroll(VisualElement swipe, Vector2 delta)
     {
-        // Implement scroll logic here
         var newPos = _containerMap[swipe].transform.position;
         if (_scrollDirection == ScrollDirection.Horizontal || _scrollDirection == ScrollDirection.Both)
         {
@@ -242,7 +237,6 @@ public class ScrollController : MonoBehaviour
         if (_clampToBounds)
         {
             newPos.x = Mathf.Clamp(newPos.x, _scrollBoundsMap[swipe].x - 2 * _pictureSizeMap[swipe].x, _scrollBoundsMap[swipe].x);
-            //newPos.y = Mathf.Clamp(newPos.y, _scrollBoundsMap[swipe].y - _pictureSizeMap[swipe].y, _scrollBoundsMap[swipe].y + _pictureSizeMap[swipe].y);
         }
 
         _containerMap[swipe].transform.position = newPos;

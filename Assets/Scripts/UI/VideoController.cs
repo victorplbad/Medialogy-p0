@@ -29,18 +29,13 @@ public class VideoController : MonoBehaviour
 
     private void OnGeometryChanged(GeometryChangedEvent evt)
     {
-        // Unregister the callback so this only runs once after the initial layout.
         _root.UnregisterCallback<GeometryChangedEvent>(OnGeometryChanged);
-
-        // Now that the layout is ready, bind the buttons.
         BindButtons(_root);
     }
 
     private void BindButtons(VisualElement parent)
     {
-        // Find ALL VisualElements that should act as buttons
         var buttons = parent.Query<VisualElement>(className: "VideoButton").ToList();
-        // ^ you can mark them with a USS class = "button" in UXML
 
         foreach (var button in buttons)
         {
